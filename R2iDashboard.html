@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="R2i Dashboard Portal">
+    <meta name="author" content="Rachel Wong">
+	<link rel="icon" href="./img/R.png" type="image/png" sizes="32x32">
+    <title>R2i Dashboard</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./css/business-frontpage.css" rel="stylesheet">
+	
+	<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</head>
+
+<style>
+
+a {
+  color: white;
+}
+a:hover {
+  text-decoration: none !important; 
+  color: white;
+}
+
+.circle1_container {
+    position: relative;
+    width: 100%;
+}
+
+.img-circle {
+  opacity: 0.7;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.circle1_container:hover .img-circle {
+  opacity: 0.3;
+}
+
+.circle1_container:hover .middle {
+  opacity: 0.8;
+}
+
+.text {
+  background-color: #607123;
+  color: white;
+  font-size: 18px;
+  padding: 50px 20px;
+}
+</style>
+
+<!--<body>-->
+<body style="background-color:white">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="About.html" title="About" ><font color="#3fce29">R2i</font></a>
+            </div>
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+	
+	 <div class="row">
+            <div class="col-sm-8">
+                <h1><font color="#607123">Refugee and Immigrant Integration Dashboard</font></h1>
+                <h4><font color="#95b54c">A web-based mapping and charting tool to explore the refugee and immigrant integration data,
+				make sustainability a priority.</font></h4>
+			</div>
+           
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <div class="row">
+		
+		    <div class="col-sm-4">
+			<div class="circle1_container">
+                <img class="img-circle img-responsive img-center" src="./img/Map.bmp" alt="">
+				<div class="middle">
+				<div class="text"><a href="Index.html" title="Map, bar charts and row charts" >Refugees Asylum Seekers</a></div>
+				</div>
+			</div>
+                								
+            </div>
+		
+		
+		 <div class="col-sm-4">
+			<div class="circle1_container">
+               <img class="img-circle img-responsive img-center" src="./img/Demographic.PNG" alt="">
+				<div class="middle">
+				<div class="text"><a href="demographic.html" title="Stacked bar chart, row and pie charts" >Demographics</a></div>
+				</div>
+			</div>
+                
+            </div>
+		
+        
+			
+           
+			
+            <div class="col-sm-4">
+			<div class="circle1_container">
+               <img class="img-circle img-responsive img-center" src="./img/Education.PNG" alt="">
+				<div class="middle">
+				<div class="text"><a href="edu_attainment.html" title="Parallel coordinates plot" >Immigrant Integration Indicators</a></div>
+				</div>
+			</div>
+                
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <!-- <div class="row"> -->
+                <div class="col-lg-12">
+                    <h6>Best viewed with Firefox or Chrome browser.</h6>
+                </div>
+            </div>
+            <!-- /.row -->
+			<!--<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+			<script type="IN/Share" data-url="http://personal.psu.edu/wxw5193/webserver/R2iDashboard.html"></script>-->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+</body>
+
+</html>

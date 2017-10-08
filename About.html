@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="description" content="About R2i Dashboard Project">
+    <meta name="author" content="Rachel Wong">
+	<link rel="icon" href="./img/R.png" type="image/png" sizes="32x32">
+
+	<title>About</title> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Custom Fonts -->
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<!--Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<style>
+	body { padding-top: 60px;
+           padding-bottom: 40px;
+		   padding-left: 0px;
+	}
+	
+	body a {
+    color: #1396d9;
+	}
+	
+	.contentContainer {
+    font-size: 1.0em;
+    font-family: 'Lato', sans-serif;
+    padding: 0 300px;
+    margin-top: 20px;
+    color: #5a5a5a;
+	}
+
+	.contentContainer h1, .narrativeContentAbout h1, .contentContainer h2, ..narrativeContentAbout h2, .contentContainer h3, .narrativeContentAbout h3 {
+		color: #0f325a;
+	}
+
+	.contentContainer p, .contentContainer li {
+		font-size: 1.15em;
+	}
+
+	.contentContainer li, .narrativeContentAbout li {
+		padding-bottom: 0.3em;
+	}
+
+	.contentContainer h1 {
+		margin-top: 0px;
+		padding-top: 35px;
+		font-size: 1.9em;
+	}
+
+	.contentContainer h1, .narrativeContentAbout h1 {
+		font-weight: 900;    
+	}
+
+	.contentContainer h2 {
+		margin-top: 0px;
+		padding-top: 35px;
+		font-size: 1.8em;
+	}
+
+	.contentContainer h2, .narrativeContentAbout h2 {
+		font-weight: 700;    
+	}
+
+	.contentContainer h3 {
+		font-size: 1.5em;
+		font-weight: 700;
+		margin-bottom: 5px;
+		color: #95b54c;
+	}
+
+	.contentContainer h3, .narrativeContentAbout h3 {
+		font-weight: 700;
+	}
+
+	.contentContainer a:hover, .offcanvas a:focus{
+    color:#3fce29;
+	text-decoration: none !important; 
+	}	
+</style>
+
+<body style="background-color:white">
+<!-- Navigation -->
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="R2iDashboard.html" title="Back to portal" ><font color="#3fce29">R2i</font></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="Index.html"><i class="fa fa-fw fa-globe"></i> Refugees and Asylum Seekers</a></li>
+			<li><a href="demographic.html"><i class="fa fa-fw fa-user"></i>Demographics</a></li>
+				<!---Education--->
+			<li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-bar-chart-o"></i>Education<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="edu_attainment.html">Highest educational attainment</a>
+                        </li>
+                        <li>
+                            <a href="edu_early_leaver.html">Early leaver</a>
+                        </li>
+                        <li>
+                            <a href="edu_lifelong_learning.html">Lifelong learning</a>
+                        </li>
+						 <li>
+                            <a href="edu_NEET.html">Young people not in education, employment or training</a>
+                        </li>
+                    </ul>
+            </li>
+			<li><a href="employment.html"><i class="fa fa-fw fa-bar-chart-o"></i>Employment</a></li>
+			<li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-bar-chart-o"></i>Social Inclusion<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+			<li><a href="social_AROPE_COB.html">By Country of Birth (COB)</a></li>
+			<li><a href="social_AROPE_COC.html">By Country of Citizen (COC)</a></li>
+			</ul>
+			</li>
+			<li class="active"><a href="About.html"><span class="glyphicon glyphicon-info-sign"></span>About</a></li>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+		
+<div class="contentContainer">
+  <h2><font color="#607123">Refugee and Immigrant Integration Dashboard (R2i)</font></h2>
+  
+  <h3>Background</h3>
+  <p>In 2015, 1.3 million asylum seekers surged in Europe, nearly 90,000 were unaccompanied children. 350,000 people fled from the conflicts in Syria, 300,000 escaped from the ongoing violence in Afghanistan and Iraq. The majority of the influx arrived by sea but some entered in Europe over land via Turkey and Albania. More than 3,700 people died crossing the Mediterranean in attempts to reach Europe.</p>
+  
+  <div class="panel-group">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#collapse1">Common Basic Principles (CBP)</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <p>European Union (EU) is a politico-economic union of 28 member states located in Europe. In November 2004, the Justice and Home Affairs Council which is one of the councils in EU, agreed and adopted the
+	  <a href="http://www.eesc.europa.eu/resources/docs/common-basic-principles_en.pdf" title="Common Basic Principles">
+	  CBP for Immigrant Integration Policy.</a> The CBPs became the driving force integrating the migrants in the EU. Among 11 CBPs, 4 of them are closely related to this project:</p>
+	   <ul>
+		<li>CBP 1 “Integration is a dynamic, two-way process of mutual accommodation by all immigrants and residents of Member State”.</li>
+		<li>CBP 3 “Employment is a key part of the integration process and is central to the participation of immigrants, to the contributions immigrants make to the host society, and to making such contributions”.</li> 
+		<li>CBP 4 “Basic knowledge of the host society’s language, history, and institutions is indispensable to integration; enabling immigrants to acquire this basic knowledge is essential to successful integration”.</li> 
+		<li>CBP 5 “Efforts in education are critical to preparing immigrants, and particularly their descendants, to be more successful and more active participants in society”.</li>
+  	  </div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="panel-group">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#collapse2">Europe 2020</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <p>Europe 2020 is the EU’s 10-year strategy for social and economic development; it addresses how the policy makers should confront key long-term challenges such as demographic change and globalization.
+	  In 2010, European Commission set  <a href="http://ec.europa.eu/europe2020/europe-2020-in-a-nutshell/targets/index_en.htm" title="Europe 2020 targets">
+	  5 headline targets</a> for EU countries to achieve in 2020, topics include employment, education, fighting poverty and social exclusion, research and development, climate/energy. The three headline targets related to this project are:</p>
+	   <ul>
+		<li>The employment rate of the population aged 20-64 should increase from the current 69% to at least 75%, including through the greater involvement of women, older workers and the better integration of migrants in the work force.</li>
+		<li>The early school leavers should be reduced to less than 10% from the current 15%, while the share of the population aged 30-34 having completed university education should increase from 31% to at least 40% in 2020.</li> 
+		<li>The number of Europeans living below the national poverty lines should be reduced by 25%, lifting over 20 million people out of poverty.</li> 
+		</ul>
+	  </div>
+    </div>
+  </div>
+  </div>
+  
+  <div class="panel-group">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" href="#collapse3">Using EU Indicators of Immigrant Integration</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <p>Driven by the Common Basic Principles and Europe 2020, the European Commission undertook a pilot
+	  study to examine and develop the core indicators. The core indicators in 4 categories are
+	  :  Employment, Education, Social inclusion and Active citizenship. They are available for download on
+	  Eurostat website. Eurostat is the official EU statistics. In 2013, the Commission has published the report
+	  <a href="https://ec.europa.eu/migrant-integration/index.cfm?action=media.download&uuid=FC375682-95DF-1B86-CF670D84CA41C2D6" title="download document">
+	  Using EU Indicators of Immigrant Integration.</a> Researchers and policy makers are advised to use the indicators for:</p>
+	   <ul>
+		<li>Understanding the national contexts for integration in a comparative way.</li>
+		<li>Evaluating the results of policies.</li> 
+		<li>Using targets to mainstream and improve integration.</li>
+		</ul>
+	  </div>
+    </div>
+  </div>
+  </div>
+  
+  <p>The continuous flow of refugees and asylum seekers has been a challenge for humanitarian agencies and local governments 
+  to provide assistance and protection. The funding budget is insufficient to meet the needs for shelter, water and sanitation,
+  food, medical assistance, education, not to mention the actual funded amount is far less than the requested. 
+  The needs are dramatically outpacing resources. Providing basic needs is the immediate response to the crisis; 
+  in the long-term, researchers and UNHCR aim at developing the <font color="#597c18"><b>sustainable solutions that can help the refugees to rebuild their lives</b></font>.</p>
+    
+  <h3>Project Objectives</h3>
+  <ul>
+    <li>To view how many of asylum seekers and refugees have entered in EU countries over the years.</li>
+    <li>To understand who the refugees are.</li>
+	<li>To identify which country and group of people need assistance the most.</li>
+	<li>To compare how well the host countries integrated the migrants.</li>
+  </ul>
+  
+  <h3>Data Sources</h3>
+  <ul>
+    <li><a href="http://popstats.unhcr.org/en/overview">The UN Refugee Agency(UNHCR) Population Statistics</a> asylum seekers, refugees and persons of concern data.</li>
+	<li><a href="http://ec.europa.eu/eurostat/web/migrant-integration/data/database">EuroStat</a> immigrant integration indicators.</li>
+	<li><a href="https://github.com/johan/world.geo.json/tree/master/countries">GitHub</a> country boundaries.</li>
+  </ul>
+  
+  <h3>Technologies</h3>
+  <ul>
+  <li>bootstrap.js</li>
+  <li>crossfilter.js</li>
+  <li>d3.js</li>
+  <li>d3.parcoords.js</li>
+  <li>dc.js</li>
+  <li>dc-leaflet.js</li>
+  <li>divgrid.js</li>
+  <li>jQuery.js</li>
+  <li>leaflet.js</li>
+  <li>Inkscape</li>
+  <li>QGIS</li>
+  </ul>
+  
+  
+  <h3>Credits</h3>
+  <p>Thanks for the amazing tutorials and examples of using these Javascript libraries.</p>
+  <ul>
+    <li><a href="https://dc-js.github.io/dc.js/">dc.js</a> Dimensional charting JavaScript library.</li>
+	<li><a href="https://github.com/Intellipharm/dc-addons">dc-leaflet.js</a> dc.js chart addons.</li>
+    <li><a href="http://people.ischool.berkeley.edu/~dmenghani/wine-viz_bkp/">d3.parcoords.js</a> Parallel coordinates JavaScript library.</li></ul>
+	
+  <h3>Acknowledgments</h3>
+  <ul>
+  <li>Thanks for the advice and mentorship of <b>Professor Jim Detwiler</b> at Penn State University. He guided me how to transform an idea into a project proposal, and eventually develop the web-based tool that can be used.</li>
+  <li>Thanks for the users who participated the <a href="Evaluation.html" target="_blank" title="Sample questions">usability evaluation.</a></li></ul>
+  
+  <h3>Contact</h3>
+  <ul>
+  <li><b>Rachel Wong</b> MGIS graduate at Penn State University.</li>
+  <li>wxw5193@psu.edu</li></ul>
+</div>  
+
+</body>
+</html>

@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="icon" href="./img/R.png" type="image/png" sizes="32x32">
+    <title>Demographics</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+	<!--<link rel="stylesheet" href="./css/leaflet-legend.css">-->
+	<link rel="stylesheet" href="./css/dc_Jan13.css">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	<!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<!-- Bootstrap -->
+   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<!-- d3, dc and cross filter -->
+    <script type="text/javascript" src="./js/d3.js"></script>
+    <script type="text/javascript" src="./js/crossfilter.js"></script>
+    <script type="text/javascript" src="./js/dc.js"></script>
+   	
+</head>
+   
+<style>
+   .narrativePanelContent a:hover, .offcanvas a:focus{
+    color:#3fce29;
+	text-decoration: none !important; 
+	}
+	
+	body { padding-top: 60px;
+           padding-bottom: 40px;
+		   padding-left: 0px;
+		   background: #F0F0F0;
+	}
+	
+	text {
+        font: 10px sans-serif;
+    }
+	
+	.dc-chart g.chart-body {
+    clip-path: none;
+    }
+    .dc-chart rect.stack-deselected {
+    opacity: 0.2;
+    }
+	
+	.dc-chart g.row text {
+    fill: black;
+	}
+	
+	#pie path{
+    stroke: white;
+    stroke-width: 1;
+	}
+	
+	#pie2 path{
+    stroke: white;
+    stroke-width: 1;
+	}
+	
+	#bar_panel {
+	top: 200px;
+    left: 0;
+	right: 600px;
+    bottom: 0;
+    position: absolute;
+    width: auto;
+	padding: 30px;
+    height: auto;
+    visibility: visible;
+   	}
+	
+	#bar {
+	min-height: 400px;
+	margin: 20px 0 0 50px;
+	width: 500px;
+	}
+	
+	.chart_legend{
+	position: relative;
+    left: 10px;
+	top: 100px
+    }
+	
+	.xTitle{
+	margin: 160px 150px 0 220px;
+    }
+	
+	p.xTitle {
+    font: 15px arial, sans-serif;
+	color: black;
+    }
+	
+	.narrativePanelContent{
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    right: 0;
+	width: 600px;
+   	overflow-x: hidden;
+    height: auto;
+    display: block;
+    z-index: 47;
+    background: #f5f5f5;
+	}
+	
+	.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: grey;
+	}
+	.panel-heading a.collapsed:after {
+    content:"\e080";
+	}
+	
+	.narrativePanelContent p {
+	font-size: 0.9em;
+    font-family: 'Lato', sans-serif;
+    color: #5a5a5a;}
+	
+	.bar_panel p {
+	font-size: 0.9em;
+    font-family: 'Lato', sans-serif;
+    color: #5a5a5a;}
+	
+	.dc-chart select {
+      width: 150px;
+	}
+	
+	#display-total1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    padding-bottom: 0;
+    padding-top: 10px;
+    line-height: 1em;
+	color: #5a5a5a;
+	}
+	
+</style>
+<body>
+<!-- Navigation -->
+ <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="R2iDashboard.html" title="Back to portal" ><font color="#3fce29">R2i</font></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="Index.html"><i class="fa fa-fw fa-globe"></i> Refugees and Asylum Seekers</a></li>
+			<li class="active"><a href="demographic.html"><i class="fa fa-fw fa-user"></i>Demographics</a></li>
+				<!---Education--->
+			<li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-bar-chart-o"></i>Education<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="edu_attainment.html">Highest Educational Attainment</a>
+                        </li>
+                        <li>
+                            <a href="edu_early_leaver.html">Early Leaver</a>
+                        </li>
+                        <li>
+                            <a href="edu_lifelong_learning.html">Lifelong Learning</a>
+                        </li>
+						 <li>
+                            <a href="edu_NEET.html">Young People Not in Education, Employment or Training</a>
+                        </li>
+                       
+                    </ul>
+            </li>
+			
+			<li><a href="employment.html"><i class="fa fa-fw fa-bar-chart-o"></i>Employment</a></li>
+			<li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-bar-chart-o"></i>Social Inclusion<b class="caret"></b></a>
+                    
+			<ul class="dropdown-menu">
+			<li><a href="social_AROPE_COB.html">By Country of Birth (COB)</a></li>
+			<li><a href="social_AROPE_COC.html">By Country of Citizen (COC)</a></li>
+			</ul>
+			</li>
+			<li><a href="About.html"><span class="glyphicon glyphicon-info-sign"></span>About</a></li>
+		    </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+</nav>
+<!-- Bar chart left-->
+<div class="bar_panel">
+<div class = "row-fluid">
+<div class="span12">
+
+		<div id="bar">
+		<h3>Total Persons of Concern 2007 - 2016</h3>
+		<div class="reset" style="visibility: hidden;">
+		<a href="javascript:chart.filterAll();dc.redrawAll();">reset</a>
+		</div> 
+		</div>
+
+		<div class="chart_legend">
+		<p><b>Age Group</b></p>
+		<p>
+		<svg width="15" height="15">
+		  <rect width="15" height="15" style="fill:#e7cb94" />
+		</svg> Unknown</br>
+		<svg width="15" height="15">
+		  <rect width="15" height="15" style="fill:#e7ba52" />
+		</svg> 60 and above</br>
+		<svg width="15" height="15">
+		  <rect width="15" height="15" style="fill:#8c6d31" />
+		</svg> 18 to 59</br>
+		<svg width="15" height="15">
+		  <rect width="15" height="15" style="fill:#ad494a" />
+		</svg> 12 to 17</br>
+		<svg width="15" height="15">
+		  <rect width="15" height="15" style="fill:#843c39" />
+		</svg> 5 to 11</br>
+		<svg width="15" height="15">
+		  <rect width="15" height="15" style="fill:#393b79" />
+		</svg> 0 to 4 </br></p>
+		<!--span3-->
+		</div>
+				
+</div> <!--span9-->
+</div> <!--row-->
+</div> <!--bar_panel-->
+
+<!-- Pies and descriptions right-->
+<div class="narrativePanelContent">
+
+	<div class="row" style="padding-left:30px;">
+	<span id="display-total1" class="col-sm-4"></span>
+	</div>
+	
+	<div class="row" style="padding-left:30px;">
+	<span class="col-sm-3"><p>Persons of Concern</p></span>
+	<a onclick="myFunction()"><span class="glyphicon glyphicon-refresh" title="Reset all"></span></a>
+	</div>
+	
+	<div class="row" style="padding-left:30px;">
+	<div class="row-fluid">
+<!--select1-->
+	<div id="select3" class="col-sm-4" style="padding-bottom:30px;">
+	<div>
+	<a class='reset'
+	 href='javascript:select3.filterAll();dc.redrawAll();'
+	 style='visibility: hidden;'>reset</a>
+	</div>
+	</div>
+
+<!--select2-->	
+	<div id="select1" class="col-sm-4">
+	<div>
+	<a class='reset'
+	 href='javascript:select1.filterAll();dc.redrawAll();'
+	 style='visibility: hidden;'>reset</a>
+	</div>
+	</div>
+	
+<!--select3-->
+	<div id="select2" class="col-sm-4">
+	<div>
+	<a class='reset'
+	 href='javascript:select2.filterAll();dc.redrawAll();'
+	 style='visibility: hidden;'>reset</a>
+	</div>
+	</div>
+	</div>
+	</div>
+
+	<div class="row">
+
+	<div class="panel-group">
+		<div class="panel panel-default">
+			<div class="panel-heading" style="padding-left:30px;">
+			<h4 class="panel-title">
+			<a data-toggle="collapse" href="#collapse_row">Top 5 Host Countries</a>
+			</h4>
+			</div>
+		<div id="collapse_row" class="panel-collapse collapse in">
+			<div class="panel-body">
+			<div id="row">
+			<a class="reset" href="javascript:chart2.filterAll();dc.redrawAll();">reset</a>
+			</div>
+			<p class="xTitle"><font style="arial 10px" color="black">Persons of Concern (k)</font></p>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
+
+	<div class="row">
+		
+		<div class="panel-group">
+		<div class="panel panel-default">
+		  <div class="panel-heading" style="padding-left:30px;">
+			<h4 class="panel-title">
+			  <a data-toggle="collapse" href="#collapse_pie">Gender Pie Chart</a>
+			</h4>
+		  </div>
+		  <div id="collapse_pie" class="panel-collapse collapse in">
+			<div class="panel-body">
+			<div id="pie" style="padding:0px;">
+			<a class="reset" href="javascript:pie.filterAll();dc.redrawAll();">reset</a>
+			</div>
+			
+			</div>
+		  </div>
+		</div>
+		</div>
+	</div>
+
+	<div class="row">
+
+	<div class="panel-group">
+		<div class="panel panel-default">
+		  <div class="panel-heading" style="padding-left:30px;">
+			<h4 class="panel-title">
+			  <a data-toggle="collapse" href="#collapse1">Who Are the Persons of Concern?</a>
+			</h4>
+		  </div>
+		  <div id="collapse1" class="panel-collapse collapse">
+			<div class="panel-body"><p>UNHCR's persons of concern include the following groups of people:</br>
+		Refugees, asylum-seekers, internally displaced persons (IDPs), returned refugees, returned IDPs, stateless persons, and others of concern.</p></div>
+			
+		  </div>
+		</div>
+	</div>
+	</div>
+
+</div><!--<div class="narrativePanelContent">-->
+
+</body>
+<script type="text/javascript">
+
+		var chart = dc.barChart('#bar'),
+        pie = dc.pieChart('#pie');
+		select1 = dc.selectMenu('#select1');
+		select2 = dc.selectMenu('#select2');
+		select3 = dc.selectMenu('#select3');
+		chart2 = dc.rowChart("#row");
+		display1 = dc.numberDisplay("#display-total1");
+		  
+	  	// Various formatters.
+		var formatNumber = d3.format(",.0f");
+		
+		// Define color scheme.
+		var color20b = d3.scale.category20b();
+		var colorScale = d3.scale.ordinal()
+			.domain(["Male", "Female"])
+			.range(["#393b79", "#ad494a"]);
+		var colorTop5 = d3.scale.ordinal()
+			.range(["#393b79","#843c39", "#ad494a", "#8c6d31", "#e7ba52", "#e7cb94"]);
+		var colorStacked6 = d3.scale.ordinal()
+			.range(["#393b79","#843c39", "#ad494a", "#8c6d31", "#e7ba52", "#e7cb94"]);
+		
+      d3.csv("./data/tbl_demographic_sum.csv", function(error, experiments) {
+
+          experiments.forEach(function(x) {
+              x.Count = +x.Count;
+			 
+          });
+
+          
+          function multikey(x,y) {
+              return x + 'x' + y;
+          }
+          function splitkey(k) {
+              return k.split('x');
+          }
+          function stack_second(group) {
+              return {
+                  all: function() {
+                      var all = group.all(),
+                          m = {};
+                      // build matrix from multikey/value pairs
+                      all.forEach(function(kv) {
+                          var ks = splitkey(kv.key);
+                          m[ks[0]] = m[ks[0]] || {};
+                          m[ks[0]][ks[1]] = kv.value;
+                      });
+                      // then produce multivalue key/value pairs
+                      return Object.keys(m).map(function(k) {
+                          return {key: k, value: m[k]};
+                      });
+                  }
+              };
+          }
+
+		  // Set crossfilter
+		  var ndx = crossfilter(experiments),
+			  //select age group dropdown list		
+		      ageDimension = ndx.dimension(function(d) { return d.AgeGrp; }),
+			  ageSelectSumGroup = ageDimension.group().reduceSum(function(d) {return +d.Count/1000;});
+			  //select country group dropdown list
+			  nameDimension = ndx.dimension(function(d) { return d.Name; }),
+			  nameSelectSumGroup = nameDimension.group().reduceSum(function(d) {return +d.Count/1000;});
+			  //gender pie chart
+			  genderDim = ndx.dimension(function(d) {return d.Gender;}),
+			  genderSumGroup = genderDim.group().reduceSum(function(d) {return +d.Count/1000;});
+			  //country pie chart
+			  nameDim = ndx.dimension(function(d) {return d.Name;}),
+		      nameSumGroup = nameDim.group().reduceSum(function(d) {return +d.Count/1000;});
+			  //stacked bar chart
+              runExptDim = ndx.dimension(function(d) { return multikey(d.Year, d.Expt); }),
+              runExptGroup = runExptDim.group().reduceSum(function(d) {
+                  return formatNumber(+d.Count/1000);
+              }),
+              stackedGroup = stack_second(runExptGroup);
+			  //select year
+			  yearDim = ndx.dimension(function(d) {return d.Year;}),
+              yearSelectSumGroup = yearDim.group().reduceSum(function(d) {
+                  return +d.Count/1000;
+              });
+			  sumAllAmount1 = ndx.groupAll().reduceSum(function(d) {return +d.Count;});
+              
+			  			  
+		  function sel_stack(i) {
+              return function(d) { return d.value[i];};
+          }
+
+          chart
+              .width(500)
+              .height(400)
+              .controlsUseVisibility(true)
+			  .renderHorizontalGridLines(true)
+              .x(d3.scale.linear().domain([2007,2017]))
+			  .elasticY(true)
+			  .yAxisLabel('Persons of Concern (k)')
+			  .xAxisLabel('Year')
+              .margins({left: 60, top: 50, right: 20, bottom: 50})
+              .brushOn(false)
+			  .colors(colorStacked6)
+			  .clipPadding(10)
+			  .title(function (d){
+					return formatNumber(d.value[this.layer]) + 'k';
+				})
+			  .dimension(runExptDim)
+              .group(stackedGroup, "1", sel_stack('1'))
+              			  
+			 chart.xAxis().tickFormat(function(d) {return d});
+
+          for(var i = 2; i<7; ++i)
+              chart.stack(stackedGroup, ''+i, sel_stack(i));
+
+          chart.on('pretransition', function(chart) {
+              chart.selectAll('rect.bar')
+                  .classed('stack-deselected', function(d) {
+                      // display stack faded if the chart has filters AND
+                      // the current stack is not one of them
+                      var key = multikey(d.x, d.layer);
+                      return chart.filter() && chart.filters().indexOf(key)===-1;
+                  })
+                  .on('click', function(d) {
+                      chart.filter(multikey(d.x, d.layer));
+                      dc.redrawAll();
+                  });
+          });
+		  
+		  chart2 //row chart
+			.width(500)
+			.height(180)
+			.x(d3.scale.linear().domain([0,5000]))
+			.elasticX(true)
+			.dimension(nameDim)
+			.group(nameSumGroup)
+			.colors(colorTop5)
+			.labelOffsetX(-80)
+			.margins({left: 90, top: 10, right: 10, bottom: 30})
+			.title(function(d) { return d.key + ": " + formatNumber(d.value) + "k"; })
+			.rowsCap(5);
+
+          pie
+                           
+            .dimension(genderDim)
+            .group(genderSumGroup)
+			.width(480)
+			.height(180)
+			.legend(dc.legend())
+			.controlsUseVisibility(false)
+			.colors(colorScale.range())
+			.colorAccessor(function(d){ return colorScale.domain().indexOf(d.key); })
+			.title(function(d) { return d.key + ": " + formatNumber(d.value) + "k"; })
+			.ordering(function(d){ return -d.value })
+			.on('pretransition', function(chart) {
+			chart.selectAll('text.pie-slice').text(function(d) {
+            return dc.utils.printSingleValue((d.endAngle - d.startAngle) / (2*Math.PI) * 100) + '%';
+				})
+			});
+			  
+		 			  
+		 select1
+				.dimension(ageDimension)
+				.group(ageSelectSumGroup)
+				.multiple(false)
+				.promptText('All age groups')
+				.title(function(d) { return d.key + ": " + formatNumber(d.value) + "k"; })
+				.controlsUseVisibility(true);
+				
+		 select2
+				.dimension(nameDimension)
+				.group(nameSelectSumGroup)
+				.multiple(false)
+				.promptText('All host countries')
+				.title(function(d) { return d.key + ": " + formatNumber(d.value) + "k"; })
+				.controlsUseVisibility(true);
+				
+		 select3
+				.dimension(yearDim)
+				.group(yearSelectSumGroup)
+				.multiple(false)
+				.promptText('All years')
+				.title(function(d) { return d.key + ": " + formatNumber(d.value) + "k"; })
+				.controlsUseVisibility(true);
+				
+		//Dashboard number	
+		 display1.group(sumAllAmount1).valueAccessor(function(d) { return d; });
+
+         dc.renderAll();
+      });
+	  
+	  <!--reset all---->
+	function myFunction() {
+    location.reload();
+	} <!--end reset all>
+
+</script>
+</html>

@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	 <link rel="icon" href="./img/R.png" type="image/png" sizes="32x32">
+	<title>Refugees and Asylum Seekers</title>
+	
+    <!-- Custom CSS -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+	<!-- Bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<!--CSS-->
+    <link rel="stylesheet" href="http://intellipharm.github.io/dc-addons/bower_components/leaflet/dist/leaflet.css">
+    <link rel="stylesheet" href="http://intellipharm.github.io/dc-addons/bower_components/dc-addons/dist/leaflet/dc-leaflet-legend.css">
+	<link rel="stylesheet" href="./css/leaflet-legend.css">
+	<!--<link rel="stylesheet" href="./css/dc_Jan13.css">-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dc/2.1.8/dc.css">
+
+   	<script src="http://intellipharm.github.io/dc-addons/bower_components/leaflet/dist/leaflet.js"></script>
+   	<script type="text/javascript" src="./js/d3.js"></script>
+	<script type="text/javascript" src="./js/crossfilter.js"></script>
+	<script type="text/javascript" src="./js/dc.js"></script>
+	<script type="text/javascript" src="./js/FileSaver.js"></script>
+	<script type="text/javascript" src="./js/dc-leaflet.js"></script> <!-- customized to use the "mapbox.light" tiled maps -->
+	
+</head>
+<style>
+	.narrativePanelContent a:hover, .offcanvas a:focus{
+    color:#3fce29;
+	text-decoration: none !important; 
+	}
+
+	.container .closebtn {
+    position: absolute;
+	color: gray;
+    top: 22;
+    right: 22px;
+    font-size: 24px;
+	text-decoration: none !important;
+ 	}
+	
+	thead {color:black;}
+	tbody {color:black;}
+		
+	#mapid {
+    top: 50px;
+    left: 0;
+	right: 0;
+    bottom: 0;
+    position: absolute;
+    width: auto;
+    height: auto;
+    visibility: visible;
+    }
+	
+	.mapTitle p {
+    position: absolute;
+	top: 0px;
+	right: 0px;
+    z-index: 50;
+	background-color: gray;
+	color: white;
+	font-size: 24px;
+	padding: 10px 20px;
+	opacity: 0.8;
+	}
+	
+	.mapNarrative p {
+    position: absolute;
+	top: 50px;
+	right: 0px;
+    z-index: 50;
+	padding: 10px 10px;
+	font-size: 0.9em;
+    font-family: 'Lato', sans-serif;
+    color: #5a5a5a;
+	}
+	
+	.narrativePanelContent{
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+    right: 0;
+	width: 0;
+	overflow-x: hidden;
+    height: auto;
+   	z-index: 1;
+	transition: 0.5s;
+    background: #f5f5f5;
+	}
+	
+	.dc-chart g.row text {
+    fill: black;
+	}
+	
+	.xTitle{
+	margin: 160px 150px 0 280px;
+    }
+	
+	p.xTitle {
+    font: 15px arial, sans-serif;
+	color: black;
+    }
+	
+	.panel-heading a:after {
+    font-family:'Glyphicons Halflings';
+    content:"\e114";
+    float: right;
+    color: grey;
+	}
+	.panel-heading a.collapsed:after {
+    content:"\e080";
+	}
+	
+	.narrativePanelContent p {
+	font-size: 0.9em;
+    font-family: 'Lato', sans-serif;
+    color: #5a5a5a;
+	}
+	
+	.narrativePanelContent h3 {
+	font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    padding-bottom: 0;
+    padding-top: 0;
+    line-height: 1em;
+    }
+	
+		
+	#display-total1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    padding-bottom: 0;
+    padding-top: 10px;
+    line-height: 1em;
+	color: #5a5a5a;
+	}
+	
+	#display-total2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 3em;
+    padding-bottom: 0;
+    padding-top: 10px;
+    line-height: 1em;
+	color: #5a5a5a;
+	}
+	
+	.dc-chart select {
+      width: 180px;
+	}
+</style>
+
+<body>
+<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="R2iDashboard.html" title="Back to portal" ><font color="#3fce29">R2i</font></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="Index.html"><i class="fa fa-fw fa-globe"></i> Refugees and Asylum Seekers</a></li>
+			<li><a href="demographic.html"><i class="fa fa-fw fa-user"></i>Demographics</a></li>
+				<!---Education--->
+			<li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-bar-chart-o"></i>Education<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="edu_attainment.html">Highest Educational Attainment</a>
+                        </li>
+                        <li>
+                            <a href="edu_early_leaver.html">Early Leaver</a>
+                        </li>
+                        <li>
+                            <a href="edu_lifelong_learning.html">Lifelong Learning</a>
+                        </li>
+						 <li>
+                            <a href="edu_NEET.html">Young People Not in Education, Employment or Training</a>
+                        </li>
+                       
+                    </ul>
+            </li>
+			
+			<li><a href="employment.html"><i class="fa fa-fw fa-bar-chart-o"></i>Employment</a></li>
+			<li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-bar-chart-o"></i>Social Inclusion<b class="caret"></b></a>
+                    
+			<ul class="dropdown-menu">
+			<li><a href="social_AROPE_COB.html">By Country of Birth (COB)</a></li>
+			<li><a href="social_AROPE_COC.html">By Country of Citizen (COC)</a></li>
+			</ul>
+			</li>			
+			<li><a href="About.html"><span class="glyphicon glyphicon-info-sign"></span>About</a></li>
+			
+			
+                    
+                    
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+			<!-- close button -->
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()" title="Close">&times;</a>
+        </div>
+        <!-- /.container -->
+    </nav>
+		
+<!-- Map -->
+<div id="mapid">
+<div class="mapTitle">
+<p><span style="font-size:20px;cursor:pointer" onclick="openNav()" title="Open side panel">&#9776;</span> Host Countries of Refugees and Asylum Seekers </br>
+</p>
+</div>
+<div class="mapNarrative">
+<p>The map shows the total refugee and asylum seekers received by the host countries in thousand (k).
+</div>
+</div>
+
+<!--Graphs and charts -->
+<div id="mySidenav" class="narrativePanelContent">
+	
+	<div class="row" style="padding-left:30px;">
+	<span id="display-total1" class="col-sm-4"></span>
+	<span id="display-total2" class="col-sm-4"></span>
+	</div>
+	
+	<div class="row" style="padding-left:30px;">
+	<span class="col-sm-4"><p>Refugees</p></span>
+	<span class="col-sm-4"><p>Asylum Seekers</p></span>
+	</div>
+	
+	<div class="row" style="padding-left:30px;">
+	<div class="dc-data-count">
+            <p><span class="filter-count"></span>selected out of <span class="total-count"></span> records
+			<a onclick="myFunction()"><span class="glyphicon glyphicon-refresh" title="Reset all"></span></a></p>
+	</div>
+	</div>
+		
+	<div class="row" style="padding-left:30px;">
+			
+		<div class="row-fluid">
+		
+		<div id="select1" style="padding:0px;" class="col-sm-6" title="Select host countries">
+		<h5>Top 3 Host Countries</h5>
+		<a class='reset'
+         href='javascript:select1.filterAll();dc.redrawAll();'
+		 style='visibility: hidden;'>reset</a>
+		
+		</div>
+		
+		<div id="select2" style="padding:0px;" class="col-sm-6" title="Select origin countries">
+		<h5>Top 3 Origin Countries</h5>
+		<a class='reset'
+         href='javascript:select2.filterAll();dc.redrawAll();'
+         style='visibility: hidden;'>reset</a>
+		</div>
+		</div>
+		
+		<div class="row-fluid">
+		<div id="chart-total" style="padding:0px;" class="col-sm-6" title="Select years">
+		<h5>Refugees (k) by Year</h5>
+		<a class="reset" style="visibility: hidden;" href="javascript:Chart1.filterAll();dc.redrawAll();">reset</a>
+		<div class="clearfix"></div>
+		</div>
+		
+		<div id="chart-total2" style="padding:0px;" class="col-sm-6" title="Select years">
+		<h5>Asylum Seekers (k) by Year</h5>
+		<a class="reset" style="visibility: hidden;" href="javascript:Chart2.filterAll();dc.redrawAll();">reset</a>
+		<div class="clearfix"></div>
+		</div>
+		</div>
+		
+	</div>
+		
+	<!----------------------------------------------->	
+	
+	<div class="row">
+	
+	<div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading" style="padding-left:30px;">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse_row1">Top 5 Refugee Origins</a>
+        </h4>
+      </div>
+      <div id="collapse_row1" class="panel-collapse collapse">
+        <div class="panel-body">
+		<div id="row1" style="padding:0px;">
+		<a class="reset" href="javascript:row1.filterAll();dc.redrawAll();">reset</a>
+		</div>
+		<p class="xTitle"><font style="arial 10px" color="black">Refugees (k)</font></p>
+		</div>
+      </div>
+    </div>
+	</div>
+	</div>
+		
+	<!----------------------------------------------->
+	<div class="row">
+	
+	<div class="panel-group">
+	<div class="panel panel-default">
+    <div class="panel-heading" style="padding-left:30px;">
+      <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse_row2">Top 5 Asylum Seeker Origins</a>
+        </h4>
+    </div>
+    <div id="collapse_row2" class="panel-collapse collapse">
+      <div class="panel-body">
+	  <div id="row2" style="padding:0px;">
+	  <a class="reset" href="javascript:row2.filterAll();dc.redrawAll();">reset</a>
+	  </div>
+	  <p class="xTitle"><font style="arial 10px" color="black">Asylum Seekers (k)</font></p>
+	  </div>
+    </div>
+	</div>
+	</div>
+	
+	</div>
+	
+	<!----------------------------------------------->
+
+	<div class="row">
+
+	<div class="panel-group">
+    <div class="panel panel-default">
+      <div class="panel-heading" style="padding-left:30px;">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" href="#demo">Table View and Download</a>
+        </h4>
+      </div>
+      <div id="demo" class="panel-collapse collapse">
+        <div class="panel-body">
+		
+	<!-- download table buttons--------------------------------->
+	<div class="row-fluid">
+	<div class="col-sm-3">
+    <div id="download-type" style="clear: both; float: left">
+      <div><label><input type=radio name="operation" value="raw" checked="true">&nbsp;all data</label></div></div></div>
+	<div class="col-sm-5">
+	 <div id="download-type" style="clear: both; float: left">
+      <div><label><input type=radio name="operation" value="table">&nbsp;only selected records</label></div></div></div>
+   
+	<div style="float: right">
+      <button class="btn" id="download">download</button></div>
+	 </div>
+		<!----------------------------------->
+		
+		<div class="row-fluid">
+		<div class="span12" style="padding-left:15px;">
+		<!--<table id="test"></table>-->
+		<table class="table table-hover table-striped" id="test">
+		<thead>
+          <tr class="header">
+            <th>Year</th>
+            <th>Host</th>
+            <th>Origin</th>
+            <th>Refugee</th>
+            <th>Asylum</th>
+          </tr>
+        </thead>
+		</table>
+		<!-- pagination -->
+		<div id="paging">
+		Showing <span id="begin"></span>-<span id="end"></span> of <span id="size"></span>.
+		<input id="last" class="btn" type="Button" value="Last" onclick="javascript:lastPage()"/>
+		<input id="next" class="btn" type="Button" value="Next" onclick="javascript:nextPage()"/>
+		</div>
+		<!-- end pagination -->
+		</div>
+		</div>
+		</div>
+	  </div>
+      </div>
+    </div>
+	</div>
+
+<!------------------------------>
+
+<div class="row">
+	
+	<div class="panel-group">
+	<div class="panel panel-default">
+    <div class="panel-heading" style="padding-left:30px;">
+      <h4 class="panel-title">
+          <a data-toggle="collapse" href="#collapse_FAQ">Who Are the Refugees and Asylum Seekers?</a>
+        </h4>
+    </div>
+    <div id="collapse_FAQ" class="panel-collapse collapse">
+      <div class="panel-body" style="padding-left:30px;">
+	  <p>Under the United Nations High Commissioner for Refugees (UNHCR), Convention of 1951 and Protocol of
+	  1967 relating to the status of refugees, a person with refugee status can receive legal protection, other
+	  assistance and social rights from the countries who have signed the document. The Convention also defines
+	  a refugee’s obligations to the host governments.
+	</br></br>Different from the refugee status, asylum seekers are “Individuals who have sought international protection
+	and whose claims for refugee status have not yet been determined. On average, it takes 2 years for asylum seekers
+	to be registered as refugees in the host countries.</p>
+	  </div>
+    </div>
+	</div>
+	</div>
+	
+</div>
+
+</div> <!--<div class="narrativePanelContent">-->
+
+<!--</body>-->
+<div class="container">
+
+<script type="text/javascript">
+
+	var worldMap = dc.leafletChoroplethChart("#mapid");
+		Chart1  = dc.barChart("#chart-total");
+		Chart2  = dc.barChart("#chart-total2");
+		row1 = dc.rowChart('#row1');
+		row2 = dc.rowChart('#row2');
+		select1 = dc.selectMenu('#select1');
+		select2 = dc.selectMenu('#select2');
+		tableRaw = dc.dataTable("#test");
+		display1   = dc.numberDisplay("#display-total1");
+		display2   = dc.numberDisplay("#display-total2");
+		
+	var	ndx;
+	var ndxAll;
+		
+	// Various formatters.
+	var formatNumber = d3.format(",.0f");
+				
+			
+	d3.csv("./data/tbl_origin_asylum_refugee_2007_16.csv", function(error, spendData) {
+    spendData.forEach(function(d) {
+		d.Refugee = +d.Refugee;
+		d.Asylum = +d.Asylum;
+		d.Year = +d.Year;
+		});
+		
+	// set crossfilter
+		ndx = crossfilter(spendData);
+		ndxAll = crossfilter(spendData);
+		nameDimAll = ndxAll.dimension(function(d) {return d.Name;});
+	var	all = ndx.groupAll();
+		yearDim = ndx.dimension(function(d) {return +d.Year;}),
+		yearDim2 = ndx.dimension(function(d) {return +d.Year;}),
+		yearDim3 = ndx.dimension(function(d) {return +d.Year;}),
+		nameDim = ndx.dimension(function(d) {return d.Name;}),
+		nameDim2 = ndx.dimension(function(d) {return d.Name;}),
+		refugeePerYear = yearDim.group().reduceSum(function(d) {return +d.Refugee/1000;}),
+		asylumPerYear = yearDim2.group().reduceSum(function(d) {return +d.Asylum/1000;}),
+		totalPerName = nameDim.group().reduceSum(function(d) {return (+d.Refugee + +d.Asylum)/1000;});
+		nameSelectSumGroup = nameDim2.group().reduceSum(function(d) {return (+d.Refugee + +d.Asylum)/1000;});
+		originDim = ndx.dimension(function(d) {return d.Origin;}),
+		refugeeOriginSumGroup = originDim.group().reduceSum(function(d) {return +d.Refugee/1000;});
+		originDim2 = ndx.dimension(function(d) {return d.Origin;}),
+		asylumOriginSumGroup = originDim2.group().reduceSum(function(d) {return +d.Asylum/1000;});
+		originDim3 = ndx.dimension(function(d) {return d.Origin;}),
+		originSelectSumGroup = originDim3.group().reduceSum(function(d) {return (+d.Refugee + +d.Asylum)/1000;});
+		corridorDim = ndx.dimension(function(d) { return [d.Name, d.Origin]; }),
+		corridorGroup = corridorDim.group().reduceSum(function(d) { return +d.Refugee + +d.Asylum; });
+		grouping = function (d) { return d.Year;};//grouping for data table
+		sumAllAmount1 = ndx.groupAll().reduceSum(function(d) {return +d.Refugee;});
+		sumAllAmount2 = ndx.groupAll().reduceSum(function(d) {return +d.Asylum;});
+				
+	var colorTop5a = d3.scale.ordinal()
+			.range(["#393b79","#843c39", "#ad494a", "#8c6d31", "#e7ba52", "#e7cb94"]);
+		colorTop5b = d3.scale.ordinal()
+			.range(["#393b79","#843c39", "#ad494a", "#8c6d31", "#e7ba52", "#e7cb94"]);
+			
+	
+		
+	d3.json("./geo/EC33.geo.json", function (Bdry) {
+        worldMap
+            .center([51, 50])
+			.zoom(3)
+		    .dimension(nameDim)
+		    .group(totalPerName)
+		    .colors(d3.scale.quantize().range(['#ffffcc','#ffeda0','#fed976','#feb24c','#fd8d3c','#fc4e2a','#e31a1c','#bd0026','#800026', '#4D0017']))//colorbrewer 10-class Spectral
+		    .colorCalculator(function (d) { return d ? worldMap.colors()(d.value) : '#ccc'; })
+		    .geojson(Bdry.features)
+			.popup(function(d,feature) {
+				return d.key + " : "+ formatNumber(d.value) + "k";})
+			.renderPopup(true)
+			.featureKeyAccessor(function(feature) {
+				return feature.properties.name;
+			})
+			//pre-render color domain
+			.on("preRender", function(chart) {
+            chart.colorDomain([0,10000]);
+			})
+			//recalculate color domain
+			.on("preRedraw", function(chart) {
+            chart.colorDomain(d3.extent(chart.data(), chart.valueAccessor()));
+			})
+			.legend(dc.leafletLegend().position('bottomleft'));
+			
+		Chart1
+			.width(250)
+			.height (150)
+			.margins({top: 10, right: 20, bottom: 40, left: 50})
+			.dimension(yearDim)
+			.group(refugeePerYear)
+			.renderHorizontalGridLines(true)
+			.x(d3.scale.ordinal().domain([2007,2008,2009,2010,2011,2012,2013,2014,2015,2016]))
+			.xUnits(dc.units.ordinal)
+			.elasticY(true)
+			.ordinalColors(['#e7cb94'])
+			.renderlet(function (chart) {
+                chart.selectAll("g.x text")
+                .attr('dx', '-21')
+				.attr('dy', '-1')
+                .attr('transform', "rotate(-65)");
+            })
+			.title(function(d) { return d.key + ": " + formatNumber(d.value) + "k"; })
+			.controlsUseVisibility(true);
+			
+		Chart1.yAxis().ticks(4);
+		
+		Chart2
+			.width(250)
+			.height (150)
+			.margins({top: 10, right: 20, bottom: 40, left: 50})
+			.dimension(yearDim2)
+			.group(asylumPerYear)
+			.renderHorizontalGridLines(true)
+			.x(d3.scale.ordinal().domain([2007,2008,2009,2010,2011,2012,2013,2014,2015,2016]))
+			.xUnits(dc.units.ordinal)
+			.elasticY(true)
+			.ordinalColors(['#e7cb94'])
+			.renderlet(function (chart) {
+                chart.selectAll("g.x text")
+                .attr('dx', '-21')
+				.attr('dy', '-1')
+                .attr('transform', "rotate(-65)");
+            })
+			.title(function(d) { return d.key + ": " + formatNumber(d.value) + "k"; })
+			.controlsUseVisibility(true);
+			
+		Chart2.yAxis().ticks(4);
+		
+		row1
+			.width(500)
+			.height(160)
+			.x(d3.scale.linear().domain([0,20]))
+			.elasticX(true)
+			.dimension(originDim)
+			.group(refugeeOriginSumGroup)
+			.colors(colorTop5a)
+			.labelOffsetX(-80)
+			.margins({left: 90, top: 10, right: 10, bottom: 30})
+			.title(function(d) { return d.key + ": " + formatNumber(d.value) + "k"; })
+			.rowsCap(5);
+			
+		row2
+			.width(500)
+			.height(160)
+			.x(d3.scale.linear().domain([0,20]))
+			.elasticX(true)
+			.dimension(originDim2)
+			.group(asylumOriginSumGroup)
+			.colors(colorTop5b)
+			.labelOffsetX(-80)
+			.margins({left: 90, top: 10, right: 10, bottom: 30})
+			.title(function(d) { return d.key + ": " + formatNumber(d.value) + "k"; })
+			.rowsCap(5);
+			
+			  
+		select1
+				.dimension(nameDim2)
+				.group(nameSelectSumGroup)
+				.promptText('All host countries')
+				.multiple(true)
+				.numberVisible(4)
+				.title(function(d) { return d.key + ": " + formatNumber(d.value) + "k"; })
+				.order(function (a,b) {return a.value < b.value ? 1 : b.value < a.value ? -1 : 0;})
+				.controlsUseVisibility(true);
+				
+		select2
+				.dimension(originDim3)
+				.group(originSelectSumGroup)
+				.promptText('All origin countries')
+				.multiple(true)
+				.numberVisible(4)
+				.title(function(d) { return d.key + ": " + formatNumber(d.value) + "k"; })
+				.order(function (a,b) {return a.value < b.value ? 1 : b.value < a.value ? -1 : 0;})
+				.controlsUseVisibility(true);
+		
+		var fmt = d3.format("02d"),
+			fmtComma = d3.format(",");
+		
+		
+		tableRaw
+				.dimension(yearDim3)
+				.group(grouping)
+				.size(200)
+				.columns([
+				function (d) { return d.Year; },
+				function (d) { return d.Name; },
+				function (d) { return d.Origin; },
+				function (d) { return formatNumber(d.Refugee); },
+				function (d) { return formatNumber(d.Asylum); }
+				])
+				.sortBy(function (d) { return [d.Name];})
+				.order(d3.ascending);
+		
+		//Dashboard number	
+		display1.group(sumAllAmount1).valueAccessor(function(d) { return d; });
+		display2.group(sumAllAmount2).valueAccessor(function(d) { return d; });
+						
+				
+		function show_empty_message(chart) {
+			  var is_empty = d3.sum(chart.group().all().map(chart.valueAccessor())) === 0;
+			  var data = is_empty ? [1] : [];
+			  var empty = chart.svg().selectAll('.empty-message').data(data);
+			  empty.enter().append('text')
+				  .text('Number is too small.')
+				  .attr({
+					  'text-anchor': 'middle',
+					  'alignment-baseline': 'middle',
+					  class: 'empty-message',
+					  x: chart.margins().left + chart.effectiveWidth()/2,
+					  y: chart.margins().top + chart.effectiveHeight()/2
+				  })
+				  .style('opacity', 0);
+			  empty.transition().duration(1000).style('opacity', 1);
+			  empty.exit().remove();
+		}
+	  
+		Chart1.on('pretransition', show_empty_message);
+		Chart2.on('pretransition', show_empty_message);
+				
+		dc.dataCount('.dc-data-count')
+			.dimension(ndx)
+			.group(all);
+		
+		//download data
+		d3.select('#download')
+		.on('click', function() {
+        
+		var data = nameDimAll.top(Infinity);
+
+        if(d3.select('#download-type input:checked').node().value==='table') {
+			data = nameDim.top(Infinity);
+            data = data.sort(function(a, b) {
+                return tableRaw.order()(tableRaw.sortBy()(a), tableRaw.sortBy()(b));
+            });
+        }
+        var blob = new Blob([d3.csv.format(data)], {type: "text/csv;charset=utf-8"});
+        saveAs(blob, 'data.csv');
+		});	<!--end download data-->
+		
+		update();
+		dc.renderAll();
+		
+		//dc.tooltipMixin(worldMap);
+		
+		}); <!-- end geoJon-->
+			
+	}); <!-- end d3.csv-->
+	
+		
+		<!-- pagination -->	
+		var ofs = 0, pag = 50;
+		function display() {
+		d3.select('#begin')
+          .text(ofs);
+		d3.select('#end')
+          .text(ofs+pag-1);
+		d3.select('#last')
+          .attr('disabled', ofs-pag<0 ? 'true' : null);
+		d3.select('#next')
+          .attr('disabled', ofs+pag>=ndx.size() ? 'true' : null);
+		d3.select('#size').text(ndx.size());
+		}
+		
+		function update() {
+		tableRaw.beginSlice(ofs);
+		tableRaw.endSlice(ofs+pag);
+		display();
+		}		
+		function nextPage() {
+		ofs += pag;
+		update();
+		tableRaw.redraw();
+		}
+		function lastPage() {
+		ofs -= pag;
+		update();
+		tableRaw.redraw();
+		} <!-- end pagination -->	
+	
+	<!--reset all-->
+	function myFunction() {
+    location.reload();
+	} <!--end reset all>
+	
+	<!--js side nav open btn-->
+	function openNav() {
+    document.getElementById("mySidenav").style.width = "600px";
+    document.getElementById("mapid").style.marginRight = "600px";
+	}
+	
+	<!--js side nav close btn-->
+	function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mapid").style.marginRight= "0";
+	}<!--end js side nav push>
+	
+	<!--js side nav open onload-->
+	$(document).ready(function(){
+	document.getElementById("mySidenav").style.width = "600px";
+    document.getElementById("mapid").style.marginRight = "600px";
+    });
+	
+</script>
+</div>
+</body>
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33628816-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</html>		
+	

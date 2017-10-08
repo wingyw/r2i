@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<link rel="icon" href="./img/R.png" type="image/png" sizes="32x32">
+
+<title>Early School Leaver</title> 
+	<!-- Custom CSS -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	
+	<!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 
+	<!-- Bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   
+	<!-- plot and table -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js"></script>
+	<script src="./js/d3.parcoords.js"></script>
+	<script src="./js/divgrid.js"></script>
+
+</head>
+<style>
+
+	body { padding-top: 60px;
+           padding-bottom: 40px;
+		   padding-left: 0px;
+	}
+	
+	  /* Position the tooltip text*/
+    .parcoords .tooltiptext {
+    position: absolute;
+	left: 730px;
+    z-index: 48;
+	}
+	
+	.parcoord_panel {
+	top: 50px;
+    left: 0;
+	right: 440px;
+    bottom: 0;
+    position: absolute;
+    width: auto;
+    height: auto;
+    visibility: visible;
+    }
+	
+	.narrativePanelContent{
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    right: 0;
+	width: 440px;
+    padding: 0 30px 30px;
+    overflow: auto;
+    height: auto;
+    display: block;
+    z-index: 47;
+    background: #f5f5f5;
+	}
+	
+	.parcoord_panel p {
+	font-size: 0.8em;
+    font-family: 'Lato', sans-serif;
+    color: #5a5a5a;}
+	
+	.parcoord_panel p {
+	width: 400px;
+	}
+	
+	#grid {width: 440px;
+	}
+	
+	.narrativePanelContent p {
+	width: 400px;
+	}
+	
+	.narrativePanelContent p {
+	font-size: 0.9em;
+	font-family: 'Lato', sans-serif;
+    color: #5a5a5a;}
+	
+	.narrativePanelContent h4 {
+	color: #3fce29;}
+	
+</style>
+
+<body>
+
+<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="R2iDashboard.html" title="Back to portal" ><font color="#3fce29">R2i</font></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="Index.html"><i class="fa fa-fw fa-globe"></i> Refugees and Asylum Seekers</a></li>
+			<li><a href="demographic.html"><i class="fa fa-fw fa-user"></i>Demographics</a></li>
+				<!---Education--->
+			<li class="active" class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-bar-chart-o"></i>Education<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="edu_attainment.html">Highest Educational Attainment</a>
+                        </li>
+                        <li class="active">
+                            <a href="edu_early_leaver.html">Early Leaver</a>
+                        </li>
+                        <li>
+                            <a href="edu_lifelong_learning.html">Lifelong Learning</a>
+                        </li>
+						 <li>
+                            <a href="edu_NEET.html">Young People Not in Education, Employment or Training</a>
+                        </li>
+                       
+                    </ul>
+            </li>
+			
+			<li><a href="employment.html"><i class="fa fa-fw fa-bar-chart-o"></i>Employment</a></li>
+			<li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-bar-chart-o"></i>Social Inclusion<b class="caret"></b></a>
+                    
+			 <ul class="dropdown-menu">
+			<li><a href="social_AROPE_COB.html">By Country of Birth (COB)</a></li>
+			<li><a href="social_AROPE_COC.html">By Country of Citizen (COC)</a></li>
+			</ul>
+			</li>
+			<li><a href="About.html"><span class="glyphicon glyphicon-info-sign"></span>About</a></li>
+			</div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>		
+		
+<!--Graph and table-->
+<div class="parcoord_panel">
+<div class="row-fluid">
+<div class="span5">
+<div id="example" class="parcoords">
+<span class="tooltiptext">Left click and drag along the y-axis to filter data. The y-axis is reorderable.</span>
+</div>
+</div>
+</div>
+
+<div class="row-fluid">
+<div class="span5">
+<div style="padding:10px; ">
+<p>
+<b>COB</b><a href="glossary_COB.html" onClick="window.open('glossary_COB.html','Country of Birth (COB)','resizable,height=200,width=520'); return false;">
+          <span class="glyphicon glyphicon-question-sign" title="What is country of birth?"></span>
+        </a><i>Country of Birth</i></br>
+<b>EU-28</b><a href="glossary_EU28.html" onClick="window.open('glossary_EU28.html','EU-28','resizable,height=380,width=480'); return false;">
+          <span class="glyphicon glyphicon-question-sign" title="What is EU-28?"></span>
+        </a><i>European Union 28 States</i></br>
+<b>Macedonia*</b> <i>Former Yugoslav Republic of Macedonia</i></br>
+<b>Germany**</b> <i>Germany (until 1990 former territory of the FRG)</i></br>
+<b>0%</b> <i>Data is not available</i></p>
+</div>
+</div>
+</div>
+</div> <!--end parcord_panel-->
+
+<div class="narrativePanelContent">
+<h4>Aged 18-24 Early School Leaver 2006-2016</h4>
+<p><u>Europe 2020 Education Headline Target</u>
+<a href="http://ec.europa.eu/europe2020/europe-2020-in-a-nutshell/targets/index_en.htm"  target="_blank">
+          <span class="glyphicon glyphicon-question-sign" title="Europe 2020 targets"></span>
+        </a></br>
+The early school leavers should be reduced to <b>less than 10%.</b> <a href="http://ec.europa.eu/eurostat/statistics-explained/index.php/Migrant_integration_statistics_-_education"  target="_blank">
+          <span class="glyphicon glyphicon-question-sign" title="Education Statistics Explained"></span>
+        </a>
+</br>The young foreign-born persons were generally at greater risk of leaving education without having completed upper secondary education level.</p>
+<p><span class="glyphicon">&#xe094;</span> Mouse over table to view the corresponding record highlighted on the plot.
+</br>Table view maximum records: 100</p>
+
+<div class="row-fluid">
+<div class="span12">
+<div id="grid"></div>
+</div>
+</div>	
+</div>
+
+</div> <!--end narrativePanelContent-->
+
+<script id="brushing">// quantitative colour scale
+var color20c = d3.scale.category20c();
+var color = function(d) { return color20c(d['Host Country']); };
+var parcoords = d3.parcoords()("#example")
+  .color(color)
+  .alpha(0.4);
+
+// load csv file and create the chart
+d3.csv('./data/tbl_edu_earlyleaver_COB.csv', function(data) {
+  parcoords
+    .data(data)
+	.margin({ top: 20, left: 10, bottom: 12, right: 10 })
+    .render()
+	.reorderable()
+	.mode("queue")
+	.brushMode("1D-axes");  // enable brushing
+	
+
+  // create data table, row hover highlighting
+  var grid = d3.divgrid();
+  d3.select("#grid")
+    .datum(data.slice(0,100))
+    .call(grid)
+    .selectAll(".row")
+    .on({
+      "mouseover": function(d) { parcoords.highlight([d]) },
+      "mouseout": parcoords.unhighlight
+    });
+
+  // update data table on brush event
+  parcoords.on("brush", function(d) {
+    d3.select("#grid")
+      .datum(d.slice(0,100))
+      .call(grid)
+      .selectAll(".row")
+      .on({
+        "mouseover": function(d) { parcoords.highlight([d]) },
+        "mouseout": parcoords.unhighlight
+      });
+  });
+});
+</script>
+</body>
+</html>
