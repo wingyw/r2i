@@ -1,0 +1,2125 @@
+Year,Name,Count,Expt,Gender,AgeGrp
+2007,Bulgaria,0,1,Female,0 to 4
+2007,Bulgaria,6,1,Male,0 to 4
+2007,Bulgaria,6,2,Female,5 to 11
+2007,Bulgaria,13,2,Male,5 to 11
+2007,Bulgaria,8,3,Female,12 to 17
+2007,Bulgaria,57,3,Male,12 to 17
+2007,Bulgaria,91,4,Female,18 to 59
+2007,Bulgaria,791,4,Male,18 to 59
+2007,Bulgaria,3,5,Female,Above 60
+2007,Bulgaria,0,5,Male,Above 60
+2007,Bulgaria,0,6,Female,Unknown
+2007,Bulgaria,0,6,Male,Unknown
+2007,Croatia,4,1,Female,0 to 4
+2007,Croatia,1,1,Male,0 to 4
+2007,Croatia,5,2,Female,5 to 11
+2007,Croatia,2,2,Male,5 to 11
+2007,Croatia,0,3,Female,12 to 17
+2007,Croatia,3,3,Male,12 to 17
+2007,Croatia,6,4,Female,18 to 59
+2007,Croatia,33,4,Male,18 to 59
+2007,Croatia,0,5,Female,Above 60
+2007,Croatia,0,5,Male,Above 60
+2007,Croatia,0,6,Female,Unknown
+2007,Croatia,0,6,Male,Unknown
+2007,Czech Rep.,0,1,Female,0 to 4
+2007,Czech Rep.,0,1,Male,0 to 4
+2007,Czech Rep.,0,2,Female,5 to 11
+2007,Czech Rep.,0,2,Male,5 to 11
+2007,Czech Rep.,0,3,Female,12 to 17
+2007,Czech Rep.,0,3,Male,12 to 17
+2007,Czech Rep.,0,4,Female,18 to 59
+2007,Czech Rep.,0,4,Male,18 to 59
+2007,Czech Rep.,0,5,Female,Above 60
+2007,Czech Rep.,0,5,Male,Above 60
+2007,Czech Rep.,367,6,Female,Unknown
+2007,Czech Rep.,596,6,Male,Unknown
+2007,Estonia,0,1,Female,0 to 4
+2007,Estonia,0,1,Male,0 to 4
+2007,Estonia,0,2,Female,5 to 11
+2007,Estonia,0,2,Male,5 to 11
+2007,Estonia,0,3,Female,12 to 17
+2007,Estonia,0,3,Male,12 to 17
+2007,Estonia,0,4,Female,18 to 59
+2007,Estonia,3,4,Male,18 to 59
+2007,Estonia,0,5,Female,Above 60
+2007,Estonia,0,5,Male,Above 60
+2007,Estonia,0,6,Female,Unknown
+2007,Estonia,0,6,Male,Unknown
+2007,Latvia,0,1,Female,0 to 4
+2007,Latvia,2,1,Male,0 to 4
+2007,Latvia,0,2,Female,5 to 11
+2007,Latvia,1,2,Male,5 to 11
+2007,Latvia,2,3,Female,12 to 17
+2007,Latvia,1,3,Male,12 to 17
+2007,Latvia,6,4,Female,18 to 59
+2007,Latvia,33,4,Male,18 to 59
+2007,Latvia,0,5,Female,Above 60
+2007,Latvia,0,5,Male,Above 60
+2007,Latvia,0,6,Female,Unknown
+2007,Latvia,0,6,Male,Unknown
+2007,Lithuania,0,1,Female,0 to 4
+2007,Lithuania,0,1,Male,0 to 4
+2007,Lithuania,0,2,Female,5 to 11
+2007,Lithuania,0,2,Male,5 to 11
+2007,Lithuania,0,3,Female,12 to 17
+2007,Lithuania,0,3,Male,12 to 17
+2007,Lithuania,0,4,Female,18 to 59
+2007,Lithuania,0,4,Male,18 to 59
+2007,Lithuania,0,5,Female,Above 60
+2007,Lithuania,0,5,Male,Above 60
+2007,Lithuania,145,6,Female,Unknown
+2007,Lithuania,137,6,Male,Unknown
+2007,Malta,5,1,Female,0 to 4
+2007,Malta,6,1,Male,0 to 4
+2007,Malta,21,2,Female,5 to 11
+2007,Malta,43,2,Male,5 to 11
+2007,Malta,0,3,Female,12 to 17
+2007,Malta,0,3,Male,12 to 17
+2007,Malta,290,4,Female,18 to 59
+2007,Malta,3456,4,Male,18 to 59
+2007,Malta,0,5,Female,Above 60
+2007,Malta,0,5,Male,Above 60
+2007,Malta,0,6,Female,Unknown
+2007,Malta,0,6,Male,Unknown
+2007,Slovakia,3,1,Female,0 to 4
+2007,Slovakia,0,1,Male,0 to 4
+2007,Slovakia,0,2,Female,5 to 11
+2007,Slovakia,0,2,Male,5 to 11
+2007,Slovakia,0,3,Female,12 to 17
+2007,Slovakia,0,3,Male,12 to 17
+2007,Slovakia,3,4,Female,18 to 59
+2007,Slovakia,7,4,Male,18 to 59
+2007,Slovakia,0,5,Female,Above 60
+2007,Slovakia,0,5,Male,Above 60
+2007,Slovakia,0,6,Female,Unknown
+2007,Slovakia,0,6,Male,Unknown
+2007,Slovenia,0,1,Female,0 to 4
+2007,Slovenia,0,1,Male,0 to 4
+2007,Slovenia,1,2,Female,5 to 11
+2007,Slovenia,0,2,Male,5 to 11
+2007,Slovenia,1,3,Female,12 to 17
+2007,Slovenia,28,3,Male,12 to 17
+2007,Slovenia,72,4,Female,18 to 59
+2007,Slovenia,312,4,Male,18 to 59
+2007,Slovenia,0,5,Female,Above 60
+2007,Slovenia,0,5,Male,Above 60
+2007,Slovenia,0,6,Female,Unknown
+2007,Slovenia,0,6,Male,Unknown
+2007,Macedonia,108,1,Female,0 to 4
+2007,Macedonia,117,1,Male,0 to 4
+2007,Macedonia,163,2,Female,5 to 11
+2007,Macedonia,167,2,Male,5 to 11
+2007,Macedonia,147,3,Female,12 to 17
+2007,Macedonia,126,3,Male,12 to 17
+2007,Macedonia,483,4,Female,18 to 59
+2007,Macedonia,481,4,Male,18 to 59
+2007,Macedonia,38,5,Female,Above 60
+2007,Macedonia,30,5,Male,Above 60
+2007,Macedonia,0,6,Female,Unknown
+2007,Macedonia,0,6,Male,Unknown
+2007,Turkey,437,1,Female,0 to 4
+2007,Turkey,474,1,Male,0 to 4
+2007,Turkey,686,2,Female,5 to 11
+2007,Turkey,759,2,Male,5 to 11
+2007,Turkey,573,3,Female,12 to 17
+2007,Turkey,724,3,Male,12 to 17
+2007,Turkey,3300,4,Female,18 to 59
+2007,Turkey,5061,4,Male,18 to 59
+2007,Turkey,91,5,Female,Above 60
+2007,Turkey,125,5,Male,Above 60
+2007,Turkey,39,6,Female,Unknown
+2007,Turkey,0,6,Male,Unknown
+2008,Bulgaria,4,1,Female,0 to 4
+2008,Bulgaria,22,1,Male,0 to 4
+2008,Bulgaria,12,2,Female,5 to 11
+2008,Bulgaria,32,2,Male,5 to 11
+2008,Bulgaria,12,3,Female,12 to 17
+2008,Bulgaria,40,3,Male,12 to 17
+2008,Bulgaria,129,4,Female,18 to 59
+2008,Bulgaria,493,4,Male,18 to 59
+2008,Bulgaria,1,5,Female,Above 60
+2008,Bulgaria,1,5,Male,Above 60
+2008,Bulgaria,0,6,Female,Unknown
+2008,Bulgaria,0,6,Male,Unknown
+2008,Croatia,16,1,Female,0 to 4
+2008,Croatia,13,1,Male,0 to 4
+2008,Croatia,29,2,Female,5 to 11
+2008,Croatia,29,2,Male,5 to 11
+2008,Croatia,39,3,Female,12 to 17
+2008,Croatia,68,3,Male,12 to 17
+2008,Croatia,581,4,Female,18 to 59
+2008,Croatia,649,4,Male,18 to 59
+2008,Croatia,442,5,Female,Above 60
+2008,Croatia,341,5,Male,Above 60
+2008,Croatia,0,6,Female,Unknown
+2008,Croatia,0,6,Male,Unknown
+2008,Czech Rep.,9,1,Female,0 to 4
+2008,Czech Rep.,13,1,Male,0 to 4
+2008,Czech Rep.,20,2,Female,5 to 11
+2008,Czech Rep.,29,2,Male,5 to 11
+2008,Czech Rep.,36,3,Female,12 to 17
+2008,Czech Rep.,49,3,Male,12 to 17
+2008,Czech Rep.,338,4,Female,18 to 59
+2008,Czech Rep.,252,4,Male,18 to 59
+2008,Czech Rep.,226,5,Female,Above 60
+2008,Czech Rep.,113,5,Male,Above 60
+2008,Czech Rep.,14887,6,Female,Unknown
+2008,Czech Rep.,13202,6,Male,Unknown
+2008,Estonia,0,1,Female,0 to 4
+2008,Estonia,0,1,Male,0 to 4
+2008,Estonia,2,2,Female,5 to 11
+2008,Estonia,0,2,Male,5 to 11
+2008,Estonia,0,3,Female,12 to 17
+2008,Estonia,0,3,Male,12 to 17
+2008,Estonia,1,4,Female,18 to 59
+2008,Estonia,8,4,Male,18 to 59
+2008,Estonia,0,5,Female,Above 60
+2008,Estonia,0,5,Male,Above 60
+2008,Estonia,0,6,Female,Unknown
+2008,Estonia,0,6,Male,Unknown
+2008,Hungary,0,1,Female,0 to 4
+2008,Hungary,0,1,Male,0 to 4
+2008,Hungary,483,2,Female,5 to 11
+2008,Hungary,703,2,Male,5 to 11
+2008,Hungary,91,3,Female,12 to 17
+2008,Hungary,336,3,Male,12 to 17
+2008,Hungary,780,4,Female,18 to 59
+2008,Hungary,3642,4,Male,18 to 59
+2008,Hungary,17,5,Female,Above 60
+2008,Hungary,9,5,Male,Above 60
+2008,Hungary,0,6,Female,Unknown
+2008,Hungary,0,6,Male,Unknown
+2008,Iceland,3,1,Female,0 to 4
+2008,Iceland,6,1,Male,0 to 4
+2008,Iceland,9,2,Female,5 to 11
+2008,Iceland,10,2,Male,5 to 11
+2008,Iceland,24,3,Female,12 to 17
+2008,Iceland,16,3,Male,12 to 17
+2008,Iceland,48,4,Female,18 to 59
+2008,Iceland,41,4,Male,18 to 59
+2008,Iceland,1,5,Female,Above 60
+2008,Iceland,0,5,Male,Above 60
+2008,Iceland,0,6,Female,Unknown
+2008,Iceland,0,6,Male,Unknown
+2008,Latvia,2,1,Female,0 to 4
+2008,Latvia,5,1,Male,0 to 4
+2008,Latvia,5,2,Female,5 to 11
+2008,Latvia,2,2,Male,5 to 11
+2008,Latvia,1,3,Female,12 to 17
+2008,Latvia,1,3,Male,12 to 17
+2008,Latvia,10,4,Female,18 to 59
+2008,Latvia,27,4,Male,18 to 59
+2008,Latvia,0,5,Female,Above 60
+2008,Latvia,1,5,Male,Above 60
+2008,Latvia,0,6,Female,Unknown
+2008,Latvia,0,6,Male,Unknown
+2008,Lithuania,29,1,Female,0 to 4
+2008,Lithuania,34,1,Male,0 to 4
+2008,Lithuania,23,2,Female,5 to 11
+2008,Lithuania,21,2,Male,5 to 11
+2008,Lithuania,18,3,Female,12 to 17
+2008,Lithuania,16,3,Male,12 to 17
+2008,Lithuania,78,4,Female,18 to 59
+2008,Lithuania,130,4,Male,18 to 59
+2008,Lithuania,1,5,Female,Above 60
+2008,Lithuania,1,5,Male,Above 60
+2008,Lithuania,0,6,Female,Unknown
+2008,Lithuania,0,6,Male,Unknown
+2008,Slovakia,2,1,Female,0 to 4
+2008,Slovakia,7,1,Male,0 to 4
+2008,Slovakia,4,2,Female,5 to 11
+2008,Slovakia,13,2,Male,5 to 11
+2008,Slovakia,0,3,Female,12 to 17
+2008,Slovakia,16,3,Male,12 to 17
+2008,Slovakia,17,4,Female,18 to 59
+2008,Slovakia,132,4,Male,18 to 59
+2008,Slovakia,0,5,Female,Above 60
+2008,Slovakia,1,5,Male,Above 60
+2008,Slovakia,0,6,Female,Unknown
+2008,Slovakia,0,6,Male,Unknown
+2008,Slovenia,0,1,Female,0 to 4
+2008,Slovenia,0,1,Male,0 to 4
+2008,Slovenia,0,2,Female,5 to 11
+2008,Slovenia,0,2,Male,5 to 11
+2008,Slovenia,0,3,Female,12 to 17
+2008,Slovenia,3,3,Male,12 to 17
+2008,Slovenia,20,4,Female,18 to 59
+2008,Slovenia,41,4,Male,18 to 59
+2008,Slovenia,0,5,Female,Above 60
+2008,Slovenia,0,5,Male,Above 60
+2008,Slovenia,0,6,Female,Unknown
+2008,Slovenia,0,6,Male,Unknown
+2008,Macedonia,102,1,Female,0 to 4
+2008,Macedonia,108,1,Male,0 to 4
+2008,Macedonia,168,2,Female,5 to 11
+2008,Macedonia,181,2,Male,5 to 11
+2008,Macedonia,135,3,Female,12 to 17
+2008,Macedonia,114,3,Male,12 to 17
+2008,Macedonia,449,4,Female,18 to 59
+2008,Macedonia,455,4,Male,18 to 59
+2008,Macedonia,33,5,Female,Above 60
+2008,Macedonia,27,5,Male,Above 60
+2008,Macedonia,0,6,Female,Unknown
+2008,Macedonia,0,6,Male,Unknown
+2008,Turkey,857,1,Female,0 to 4
+2008,Turkey,919,1,Male,0 to 4
+2008,Turkey,1112,2,Female,5 to 11
+2008,Turkey,1199,2,Male,5 to 11
+2008,Turkey,907,3,Female,12 to 17
+2008,Turkey,1328,3,Male,12 to 17
+2008,Turkey,4862,4,Female,18 to 59
+2008,Turkey,6855,4,Male,18 to 59
+2008,Turkey,225,5,Female,Above 60
+2008,Turkey,236,5,Male,Above 60
+2008,Turkey,0,6,Female,Unknown
+2008,Turkey,0,6,Male,Unknown
+2009,Bulgaria,11,1,Female,0 to 4
+2009,Bulgaria,12,1,Male,0 to 4
+2009,Bulgaria,17,2,Female,5 to 11
+2009,Bulgaria,34,2,Male,5 to 11
+2009,Bulgaria,5,3,Female,12 to 17
+2009,Bulgaria,29,3,Male,12 to 17
+2009,Bulgaria,105,4,Female,18 to 59
+2009,Bulgaria,619,4,Male,18 to 59
+2009,Bulgaria,10,5,Female,Above 60
+2009,Bulgaria,11,5,Male,Above 60
+2009,Bulgaria,0,6,Female,Unknown
+2009,Bulgaria,0,6,Male,Unknown
+2009,Croatia,0,1,Female,0 to 4
+2009,Croatia,2,1,Male,0 to 4
+2009,Croatia,1,2,Female,5 to 11
+2009,Croatia,2,2,Male,5 to 11
+2009,Croatia,3,3,Female,12 to 17
+2009,Croatia,14,3,Male,12 to 17
+2009,Croatia,7,4,Female,18 to 59
+2009,Croatia,25,4,Male,18 to 59
+2009,Croatia,0,5,Female,Above 60
+2009,Croatia,1,5,Male,Above 60
+2009,Croatia,0,6,Female,Unknown
+2009,Croatia,0,6,Male,Unknown
+2009,Estonia,0,1,Female,0 to 4
+2009,Estonia,0,1,Male,0 to 4
+2009,Estonia,0,2,Female,5 to 11
+2009,Estonia,0,2,Male,5 to 11
+2009,Estonia,1,3,Female,12 to 17
+2009,Estonia,4,3,Male,12 to 17
+2009,Estonia,3,4,Female,18 to 59
+2009,Estonia,14,4,Male,18 to 59
+2009,Estonia,1,5,Female,Above 60
+2009,Estonia,0,5,Male,Above 60
+2009,Estonia,0,6,Female,Unknown
+2009,Estonia,0,6,Male,Unknown
+2009,Hungary,44,1,Female,0 to 4
+2009,Hungary,28,1,Male,0 to 4
+2009,Hungary,74,2,Female,5 to 11
+2009,Hungary,81,2,Male,5 to 11
+2009,Hungary,28,3,Female,12 to 17
+2009,Hungary,454,3,Male,12 to 17
+2009,Hungary,426,4,Female,18 to 59
+2009,Hungary,7662,4,Male,18 to 59
+2009,Hungary,0,5,Female,Above 60
+2009,Hungary,30,5,Male,Above 60
+2009,Hungary,0,6,Female,Unknown
+2009,Hungary,0,6,Male,Unknown
+2009,Iceland,5,1,Female,0 to 4
+2009,Iceland,6,1,Male,0 to 4
+2009,Iceland,9,2,Female,5 to 11
+2009,Iceland,9,2,Male,5 to 11
+2009,Iceland,23,3,Female,12 to 17
+2009,Iceland,15,3,Male,12 to 17
+2009,Iceland,47,4,Female,18 to 59
+2009,Iceland,20,4,Male,18 to 59
+2009,Iceland,1,5,Female,Above 60
+2009,Iceland,0,5,Male,Above 60
+2009,Iceland,0,6,Female,Unknown
+2009,Iceland,0,6,Male,Unknown
+2009,Latvia,0,1,Female,0 to 4
+2009,Latvia,1,1,Male,0 to 4
+2009,Latvia,8,2,Female,5 to 11
+2009,Latvia,7,2,Male,5 to 11
+2009,Latvia,6,3,Female,12 to 17
+2009,Latvia,5,3,Male,12 to 17
+2009,Latvia,12,4,Female,18 to 59
+2009,Latvia,42,4,Male,18 to 59
+2009,Latvia,0,5,Female,Above 60
+2009,Latvia,0,5,Male,Above 60
+2009,Latvia,0,6,Female,Unknown
+2009,Latvia,0,6,Male,Unknown
+2009,Lithuania,10,1,Female,0 to 4
+2009,Lithuania,27,1,Male,0 to 4
+2009,Lithuania,17,2,Female,5 to 11
+2009,Lithuania,17,2,Male,5 to 11
+2009,Lithuania,7,3,Female,12 to 17
+2009,Lithuania,18,3,Male,12 to 17
+2009,Lithuania,47,4,Female,18 to 59
+2009,Lithuania,107,4,Male,18 to 59
+2009,Lithuania,2,5,Female,Above 60
+2009,Lithuania,1,5,Male,Above 60
+2009,Lithuania,0,6,Female,Unknown
+2009,Lithuania,0,6,Male,Unknown
+2009,Malta,0,1,Female,0 to 4
+2009,Malta,0,1,Male,0 to 4
+2009,Malta,0,2,Female,5 to 11
+2009,Malta,0,2,Male,5 to 11
+2009,Malta,5,3,Female,12 to 17
+2009,Malta,24,3,Male,12 to 17
+2009,Malta,10,4,Female,18 to 59
+2009,Malta,22,4,Male,18 to 59
+2009,Malta,0,5,Female,Above 60
+2009,Malta,0,5,Male,Above 60
+2009,Malta,173,6,Female,Unknown
+2009,Malta,2028,6,Male,Unknown
+2009,Romania,0,1,Female,0 to 4
+2009,Romania,0,1,Male,0 to 4
+2009,Romania,0,2,Female,5 to 11
+2009,Romania,2,2,Male,5 to 11
+2009,Romania,2,3,Female,12 to 17
+2009,Romania,11,3,Male,12 to 17
+2009,Romania,11,4,Female,18 to 59
+2009,Romania,180,4,Male,18 to 59
+2009,Romania,0,5,Female,Above 60
+2009,Romania,6,5,Male,Above 60
+2009,Romania,0,6,Female,Unknown
+2009,Romania,0,6,Male,Unknown
+2009,Slovakia,9,1,Female,0 to 4
+2009,Slovakia,3,1,Male,0 to 4
+2009,Slovakia,5,2,Female,5 to 11
+2009,Slovakia,1,2,Male,5 to 11
+2009,Slovakia,9,3,Female,12 to 17
+2009,Slovakia,21,3,Male,12 to 17
+2009,Slovakia,38,4,Female,18 to 59
+2009,Slovakia,182,4,Male,18 to 59
+2009,Slovakia,3,5,Female,Above 60
+2009,Slovakia,6,5,Male,Above 60
+2009,Slovakia,0,6,Female,Unknown
+2009,Slovakia,0,6,Male,Unknown
+2009,Slovenia,0,1,Female,0 to 4
+2009,Slovenia,0,1,Male,0 to 4
+2009,Slovenia,5,2,Female,5 to 11
+2009,Slovenia,6,2,Male,5 to 11
+2009,Slovenia,0,3,Female,12 to 17
+2009,Slovenia,28,3,Male,12 to 17
+2009,Slovenia,37,4,Female,18 to 59
+2009,Slovenia,253,4,Male,18 to 59
+2009,Slovenia,0,5,Female,Above 60
+2009,Slovenia,0,5,Male,Above 60
+2009,Slovenia,0,6,Female,Unknown
+2009,Slovenia,0,6,Male,Unknown
+2009,Macedonia,175,1,Female,0 to 4
+2009,Macedonia,183,1,Male,0 to 4
+2009,Macedonia,299,2,Female,5 to 11
+2009,Macedonia,309,2,Male,5 to 11
+2009,Macedonia,242,3,Female,12 to 17
+2009,Macedonia,222,3,Male,12 to 17
+2009,Macedonia,972,4,Female,18 to 59
+2009,Macedonia,902,4,Male,18 to 59
+2009,Macedonia,61,5,Female,Above 60
+2009,Macedonia,37,5,Male,Above 60
+2009,Macedonia,0,6,Female,Unknown
+2009,Macedonia,0,6,Male,Unknown
+2009,Turkey,609,1,Female,0 to 4
+2009,Turkey,663,1,Male,0 to 4
+2009,Turkey,807,2,Female,5 to 11
+2009,Turkey,889,2,Male,5 to 11
+2009,Turkey,761,3,Female,12 to 17
+2009,Turkey,967,3,Male,12 to 17
+2009,Turkey,4383,4,Female,18 to 59
+2009,Turkey,6752,4,Male,18 to 59
+2009,Turkey,187,5,Female,Above 60
+2009,Turkey,223,5,Male,Above 60
+2009,Turkey,0,6,Female,Unknown
+2009,Turkey,0,6,Male,Unknown
+2010,Belgium,0,1,Female,0 to 4
+2010,Belgium,0,1,Male,0 to 4
+2010,Belgium,0,2,Female,5 to 11
+2010,Belgium,0,2,Male,5 to 11
+2010,Belgium,0,3,Female,12 to 17
+2010,Belgium,0,3,Male,12 to 17
+2010,Belgium,0,4,Female,18 to 59
+2010,Belgium,0,4,Male,18 to 59
+2010,Belgium,0,5,Female,Above 60
+2010,Belgium,0,5,Male,Above 60
+2010,Belgium,7774,6,Female,Unknown
+2010,Belgium,10809,6,Male,Unknown
+2010,Bulgaria,0,1,Female,0 to 4
+2010,Bulgaria,0,1,Male,0 to 4
+2010,Bulgaria,0,2,Female,5 to 11
+2010,Bulgaria,0,2,Male,5 to 11
+2010,Bulgaria,0,3,Female,12 to 17
+2010,Bulgaria,0,3,Male,12 to 17
+2010,Bulgaria,0,4,Female,18 to 59
+2010,Bulgaria,0,4,Male,18 to 59
+2010,Bulgaria,0,5,Female,Above 60
+2010,Bulgaria,0,5,Male,Above 60
+2010,Bulgaria,133,6,Female,Unknown
+2010,Bulgaria,892,6,Male,Unknown
+2010,Croatia,29,1,Female,0 to 4
+2010,Croatia,30,1,Male,0 to 4
+2010,Croatia,55,2,Female,5 to 11
+2010,Croatia,45,2,Male,5 to 11
+2010,Croatia,95,3,Female,12 to 17
+2010,Croatia,122,3,Male,12 to 17
+2010,Croatia,1048,4,Female,18 to 59
+2010,Croatia,1100,4,Male,18 to 59
+2010,Croatia,586,5,Female,Above 60
+2010,Croatia,499,5,Male,Above 60
+2010,Croatia,10682,6,Female,Unknown
+2010,Croatia,9861,6,Male,Unknown
+2010,Czech Rep.,0,1,Female,0 to 4
+2010,Czech Rep.,0,1,Male,0 to 4
+2010,Czech Rep.,0,2,Female,5 to 11
+2010,Czech Rep.,0,2,Male,5 to 11
+2010,Czech Rep.,0,3,Female,12 to 17
+2010,Czech Rep.,0,3,Male,12 to 17
+2010,Czech Rep.,0,4,Female,18 to 59
+2010,Czech Rep.,0,4,Male,18 to 59
+2010,Czech Rep.,0,5,Female,Above 60
+2010,Czech Rep.,0,5,Male,Above 60
+2010,Czech Rep.,345,6,Female,Unknown
+2010,Czech Rep.,659,6,Male,Unknown
+2010,Denmark,0,1,Female,0 to 4
+2010,Denmark,0,1,Male,0 to 4
+2010,Denmark,0,2,Female,5 to 11
+2010,Denmark,0,2,Male,5 to 11
+2010,Denmark,0,3,Female,12 to 17
+2010,Denmark,0,3,Male,12 to 17
+2010,Denmark,0,4,Female,18 to 59
+2010,Denmark,0,4,Male,18 to 59
+2010,Denmark,0,5,Female,Above 60
+2010,Denmark,0,5,Male,Above 60
+2010,Denmark,1512,6,Female,Unknown
+2010,Denmark,1704,6,Male,Unknown
+2010,Estonia,1,1,Female,0 to 4
+2010,Estonia,2,1,Male,0 to 4
+2010,Estonia,0,2,Female,5 to 11
+2010,Estonia,2,2,Male,5 to 11
+2010,Estonia,0,3,Female,12 to 17
+2010,Estonia,0,3,Male,12 to 17
+2010,Estonia,4,4,Female,18 to 59
+2010,Estonia,40,4,Male,18 to 59
+2010,Estonia,0,5,Female,Above 60
+2010,Estonia,0,5,Male,Above 60
+2010,Estonia,0,6,Female,Unknown
+2010,Estonia,0,6,Male,Unknown
+2010,France,0,1,Female,0 to 4
+2010,France,0,1,Male,0 to 4
+2010,France,0,2,Female,5 to 11
+2010,France,0,2,Male,5 to 11
+2010,France,0,3,Female,12 to 17
+2010,France,0,3,Male,12 to 17
+2010,France,0,4,Female,18 to 59
+2010,France,0,4,Male,18 to 59
+2010,France,0,5,Female,Above 60
+2010,France,0,5,Male,Above 60
+2010,France,67449,6,Female,Unknown
+2010,France,93069,6,Male,Unknown
+2010,Germany,8229,1,Female,0 to 4
+2010,Germany,8780,1,Male,0 to 4
+2010,Germany,23093,2,Female,5 to 11
+2010,Germany,24652,2,Male,5 to 11
+2010,Germany,31340,3,Female,12 to 17
+2010,Germany,34628,3,Male,12 to 17
+2010,Germany,184696,4,Female,18 to 59
+2010,Germany,275516,4,Male,18 to 59
+2010,Germany,29551,5,Female,Above 60
+2010,Germany,25775,5,Male,Above 60
+2010,Germany,3255,6,Female,Unknown
+2010,Germany,4665,6,Male,Unknown
+2010,Iceland,1,1,Female,0 to 4
+2010,Iceland,2,1,Male,0 to 4
+2010,Iceland,0,2,Female,5 to 11
+2010,Iceland,1,2,Male,5 to 11
+2010,Iceland,0,3,Female,12 to 17
+2010,Iceland,1,3,Male,12 to 17
+2010,Iceland,4,4,Female,18 to 59
+2010,Iceland,13,4,Male,18 to 59
+2010,Iceland,0,5,Female,Above 60
+2010,Iceland,0,5,Male,Above 60
+2010,Iceland,0,6,Female,Unknown
+2010,Iceland,0,6,Male,Unknown
+2010,Italy,0,1,Female,0 to 4
+2010,Italy,0,1,Male,0 to 4
+2010,Italy,0,2,Female,5 to 11
+2010,Italy,0,2,Male,5 to 11
+2010,Italy,0,3,Female,12 to 17
+2010,Italy,0,3,Male,12 to 17
+2010,Italy,0,4,Female,18 to 59
+2010,Italy,0,4,Male,18 to 59
+2010,Italy,0,5,Female,Above 60
+2010,Italy,0,5,Male,Above 60
+2010,Italy,887,6,Female,Unknown
+2010,Italy,3189,6,Male,Unknown
+2010,Latvia,4,1,Female,0 to 4
+2010,Latvia,3,1,Male,0 to 4
+2010,Latvia,3,2,Female,5 to 11
+2010,Latvia,5,2,Male,5 to 11
+2010,Latvia,8,3,Female,12 to 17
+2010,Latvia,14,3,Male,12 to 17
+2010,Latvia,18,4,Female,18 to 59
+2010,Latvia,66,4,Male,18 to 59
+2010,Latvia,0,5,Female,Above 60
+2010,Latvia,0,5,Male,Above 60
+2010,Latvia,0,6,Female,Unknown
+2010,Latvia,0,6,Male,Unknown
+2010,Lithuania,11,1,Female,0 to 4
+2010,Lithuania,24,1,Male,0 to 4
+2010,Lithuania,12,2,Female,5 to 11
+2010,Lithuania,16,2,Male,5 to 11
+2010,Lithuania,12,3,Female,12 to 17
+2010,Lithuania,31,3,Male,12 to 17
+2010,Lithuania,1109,4,Female,18 to 59
+2010,Lithuania,1693,4,Male,18 to 59
+2010,Lithuania,430,5,Female,Above 60
+2010,Lithuania,451,5,Male,Above 60
+2010,Lithuania,0,6,Female,Unknown
+2010,Lithuania,0,6,Male,Unknown
+2010,Malta,0,1,Female,0 to 4
+2010,Malta,0,1,Male,0 to 4
+2010,Malta,0,2,Female,5 to 11
+2010,Malta,0,2,Male,5 to 11
+2010,Malta,4,3,Female,12 to 17
+2010,Malta,54,3,Male,12 to 17
+2010,Malta,0,4,Female,18 to 59
+2010,Malta,836,4,Male,18 to 59
+2010,Malta,0,5,Female,Above 60
+2010,Malta,0,5,Male,Above 60
+2010,Malta,200,6,Female,Unknown
+2010,Malta,2130,6,Male,Unknown
+2010,Netherlands,0,1,Female,0 to 4
+2010,Netherlands,0,1,Male,0 to 4
+2010,Netherlands,0,2,Female,5 to 11
+2010,Netherlands,0,2,Male,5 to 11
+2010,Netherlands,0,3,Female,12 to 17
+2010,Netherlands,0,3,Male,12 to 17
+2010,Netherlands,0,4,Female,18 to 59
+2010,Netherlands,0,4,Male,18 to 59
+2010,Netherlands,0,5,Female,Above 60
+2010,Netherlands,0,5,Male,Above 60
+2010,Netherlands,4533,6,Female,Unknown
+2010,Netherlands,8514,6,Male,Unknown
+2010,Romania,3,1,Female,0 to 4
+2010,Romania,4,1,Male,0 to 4
+2010,Romania,7,2,Female,5 to 11
+2010,Romania,10,2,Male,5 to 11
+2010,Romania,10,3,Female,12 to 17
+2010,Romania,29,3,Male,12 to 17
+2010,Romania,28,4,Female,18 to 59
+2010,Romania,291,4,Male,18 to 59
+2010,Romania,0,5,Female,Above 60
+2010,Romania,3,5,Male,Above 60
+2010,Romania,0,6,Female,Unknown
+2010,Romania,0,6,Male,Unknown
+2010,Slovakia,6,1,Female,0 to 4
+2010,Slovakia,1,1,Male,0 to 4
+2010,Slovakia,4,2,Female,5 to 11
+2010,Slovakia,4,2,Male,5 to 11
+2010,Slovakia,3,3,Female,12 to 17
+2010,Slovakia,2,3,Male,12 to 17
+2010,Slovakia,11,4,Female,18 to 59
+2010,Slovakia,146,4,Male,18 to 59
+2010,Slovakia,0,5,Female,Above 60
+2010,Slovakia,0,5,Male,Above 60
+2010,Slovakia,0,6,Female,Unknown
+2010,Slovakia,0,6,Male,Unknown
+2010,Slovenia,0,1,Female,0 to 4
+2010,Slovenia,0,1,Male,0 to 4
+2010,Slovenia,18,2,Female,5 to 11
+2010,Slovenia,15,2,Male,5 to 11
+2010,Slovenia,14,3,Female,12 to 17
+2010,Slovenia,31,3,Male,12 to 17
+2010,Slovenia,52,4,Female,18 to 59
+2010,Slovenia,301,4,Male,18 to 59
+2010,Slovenia,1,5,Female,Above 60
+2010,Slovenia,1,5,Male,Above 60
+2010,Slovenia,0,6,Female,Unknown
+2010,Slovenia,0,6,Male,Unknown
+2010,Spain,0,1,Female,0 to 4
+2010,Spain,0,1,Male,0 to 4
+2010,Spain,0,2,Female,5 to 11
+2010,Spain,0,2,Male,5 to 11
+2010,Spain,0,3,Female,12 to 17
+2010,Spain,0,3,Male,12 to 17
+2010,Spain,0,4,Female,18 to 59
+2010,Spain,0,4,Male,18 to 59
+2010,Spain,0,5,Female,Above 60
+2010,Spain,0,5,Male,Above 60
+2010,Spain,881,6,Female,Unknown
+2010,Spain,1831,6,Male,Unknown
+2010,Switzerland,1511,1,Female,0 to 4
+2010,Switzerland,1593,1,Male,0 to 4
+2010,Switzerland,1977,2,Female,5 to 11
+2010,Switzerland,2174,2,Male,5 to 11
+2010,Switzerland,1540,3,Female,12 to 17
+2010,Switzerland,1892,3,Male,12 to 17
+2010,Switzerland,8697,4,Female,18 to 59
+2010,Switzerland,15997,4,Male,18 to 59
+2010,Switzerland,639,5,Female,Above 60
+2010,Switzerland,366,5,Male,Above 60
+2010,Switzerland,10764,6,Female,Unknown
+2010,Switzerland,14578,6,Male,Unknown
+2010,Macedonia,177,1,Female,0 to 4
+2010,Macedonia,184,1,Male,0 to 4
+2010,Macedonia,252,2,Female,5 to 11
+2010,Macedonia,266,2,Male,5 to 11
+2010,Macedonia,197,3,Female,12 to 17
+2010,Macedonia,206,3,Male,12 to 17
+2010,Macedonia,906,4,Female,18 to 59
+2010,Macedonia,781,4,Male,18 to 59
+2010,Macedonia,54,5,Female,Above 60
+2010,Macedonia,47,5,Male,Above 60
+2010,Macedonia,0,6,Female,Unknown
+2010,Macedonia,0,6,Male,Unknown
+2010,Turkey,625,1,Female,0 to 4
+2010,Turkey,698,1,Male,0 to 4
+2010,Turkey,873,2,Female,5 to 11
+2010,Turkey,1019,2,Male,5 to 11
+2010,Turkey,812,3,Female,12 to 17
+2010,Turkey,967,3,Male,12 to 17
+2010,Turkey,4517,4,Female,18 to 59
+2010,Turkey,6870,4,Male,18 to 59
+2010,Turkey,177,5,Female,Above 60
+2010,Turkey,189,5,Male,Above 60
+2010,Turkey,0,6,Female,Unknown
+2010,Turkey,0,6,Male,Unknown
+2011,Belgium,0,1,Female,0 to 4
+2011,Belgium,0,1,Male,0 to 4
+2011,Belgium,0,2,Female,5 to 11
+2011,Belgium,0,2,Male,5 to 11
+2011,Belgium,0,3,Female,12 to 17
+2011,Belgium,0,3,Male,12 to 17
+2011,Belgium,0,4,Female,18 to 59
+2011,Belgium,0,4,Male,18 to 59
+2011,Belgium,0,5,Female,Above 60
+2011,Belgium,0,5,Male,Above 60
+2011,Belgium,9472,6,Female,Unknown
+2011,Belgium,12874,6,Male,Unknown
+2011,Bulgaria,0,1,Female,0 to 4
+2011,Bulgaria,0,1,Male,0 to 4
+2011,Bulgaria,0,2,Female,5 to 11
+2011,Bulgaria,23,2,Male,5 to 11
+2011,Bulgaria,0,3,Female,12 to 17
+2011,Bulgaria,118,3,Male,12 to 17
+2011,Bulgaria,108,4,Female,18 to 59
+2011,Bulgaria,641,4,Male,18 to 59
+2011,Bulgaria,0,5,Female,Above 60
+2011,Bulgaria,0,5,Male,Above 60
+2011,Bulgaria,0,6,Female,Unknown
+2011,Bulgaria,0,6,Male,Unknown
+2011,Croatia,9,1,Female,0 to 4
+2011,Croatia,9,1,Male,0 to 4
+2011,Croatia,28,2,Female,5 to 11
+2011,Croatia,34,2,Male,5 to 11
+2011,Croatia,15,3,Female,12 to 17
+2011,Croatia,56,3,Male,12 to 17
+2011,Croatia,276,4,Female,18 to 59
+2011,Croatia,345,4,Male,18 to 59
+2011,Croatia,206,5,Female,Above 60
+2011,Croatia,131,5,Male,Above 60
+2011,Croatia,10985,6,Female,Unknown
+2011,Croatia,10140,6,Male,Unknown
+2011,Estonia,0,1,Female,0 to 4
+2011,Estonia,1,1,Male,0 to 4
+2011,Estonia,0,2,Female,5 to 11
+2011,Estonia,2,2,Male,5 to 11
+2011,Estonia,1,3,Female,12 to 17
+2011,Estonia,0,3,Male,12 to 17
+2011,Estonia,8,4,Female,18 to 59
+2011,Estonia,47,4,Male,18 to 59
+2011,Estonia,0,5,Female,Above 60
+2011,Estonia,0,5,Male,Above 60
+2011,Estonia,45860,6,Female,Unknown
+2011,Estonia,51889,6,Male,Unknown
+2011,France,0,1,Female,0 to 4
+2011,France,0,1,Male,0 to 4
+2011,France,0,2,Female,5 to 11
+2011,France,0,2,Male,5 to 11
+2011,France,0,3,Female,12 to 17
+2011,France,0,3,Male,12 to 17
+2011,France,0,4,Female,18 to 59
+2011,France,0,4,Male,18 to 59
+2011,France,0,5,Female,Above 60
+2011,France,0,5,Male,Above 60
+2011,France,70878,6,Female,Unknown
+2011,France,97603,6,Male,Unknown
+2011,Germany,7902,1,Female,0 to 4
+2011,Germany,8377,1,Male,0 to 4
+2011,Germany,20689,2,Female,5 to 11
+2011,Germany,22285,2,Male,5 to 11
+2011,Germany,28454,3,Female,12 to 17
+2011,Germany,31790,3,Male,12 to 17
+2011,Germany,182517,4,Female,18 to 59
+2011,Germany,273586,4,Male,18 to 59
+2011,Germany,31169,5,Female,Above 60
+2011,Germany,27596,5,Male,Above 60
+2011,Germany,0,6,Female,Unknown
+2011,Germany,0,6,Male,Unknown
+2011,Iceland,5,1,Female,0 to 4
+2011,Iceland,3,1,Male,0 to 4
+2011,Iceland,3,2,Female,5 to 11
+2011,Iceland,4,2,Male,5 to 11
+2011,Iceland,5,3,Female,12 to 17
+2011,Iceland,1,3,Male,12 to 17
+2011,Iceland,21,4,Female,18 to 59
+2011,Iceland,64,4,Male,18 to 59
+2011,Iceland,0,5,Female,Above 60
+2011,Iceland,0,5,Male,Above 60
+2011,Iceland,46,6,Female,Unknown
+2011,Iceland,60,6,Male,Unknown
+2011,Latvia,3,1,Female,0 to 4
+2011,Latvia,3,1,Male,0 to 4
+2011,Latvia,1,2,Female,5 to 11
+2011,Latvia,5,2,Male,5 to 11
+2011,Latvia,4,3,Female,12 to 17
+2011,Latvia,3,3,Male,12 to 17
+2011,Latvia,11,4,Female,18 to 59
+2011,Latvia,38,4,Male,18 to 59
+2011,Latvia,0,5,Female,Above 60
+2011,Latvia,0,5,Male,Above 60
+2011,Latvia,0,6,Female,Unknown
+2011,Latvia,0,6,Male,Unknown
+2011,Lithuania,24,1,Female,0 to 4
+2011,Lithuania,22,1,Male,0 to 4
+2011,Lithuania,13,2,Female,5 to 11
+2011,Lithuania,13,2,Male,5 to 11
+2011,Lithuania,18,3,Female,12 to 17
+2011,Lithuania,27,3,Male,12 to 17
+2011,Lithuania,1571,4,Female,18 to 59
+2011,Lithuania,1080,4,Male,18 to 59
+2011,Lithuania,419,5,Female,Above 60
+2011,Lithuania,422,5,Male,Above 60
+2011,Lithuania,0,6,Female,Unknown
+2011,Lithuania,0,6,Male,Unknown
+2011,Netherlands,0,1,Female,0 to 4
+2011,Netherlands,0,1,Male,0 to 4
+2011,Netherlands,0,2,Female,5 to 11
+2011,Netherlands,0,2,Male,5 to 11
+2011,Netherlands,0,3,Female,12 to 17
+2011,Netherlands,0,3,Male,12 to 17
+2011,Netherlands,0,4,Female,18 to 59
+2011,Netherlands,0,4,Male,18 to 59
+2011,Netherlands,0,5,Female,Above 60
+2011,Netherlands,0,5,Male,Above 60
+2011,Netherlands,3647,6,Female,Unknown
+2011,Netherlands,6773,6,Male,Unknown
+2011,Norway,0,1,Female,0 to 4
+2011,Norway,0,1,Male,0 to 4
+2011,Norway,0,2,Female,5 to 11
+2011,Norway,0,2,Male,5 to 11
+2011,Norway,0,3,Female,12 to 17
+2011,Norway,0,3,Male,12 to 17
+2011,Norway,0,4,Female,18 to 59
+2011,Norway,0,4,Male,18 to 59
+2011,Norway,0,5,Female,Above 60
+2011,Norway,0,5,Male,Above 60
+2011,Norway,1248,6,Female,Unknown
+2011,Norway,1525,6,Male,Unknown
+2011,Poland,159,1,Female,0 to 4
+2011,Poland,162,1,Male,0 to 4
+2011,Poland,159,2,Female,5 to 11
+2011,Poland,168,2,Male,5 to 11
+2011,Poland,83,3,Female,12 to 17
+2011,Poland,79,3,Male,12 to 17
+2011,Poland,354,4,Female,18 to 59
+2011,Poland,362,4,Male,18 to 59
+2011,Poland,14,5,Female,Above 60
+2011,Poland,9,5,Male,Above 60
+2011,Poland,0,6,Female,Unknown
+2011,Poland,0,6,Male,Unknown
+2011,Romania,0,1,Female,0 to 4
+2011,Romania,0,1,Male,0 to 4
+2011,Romania,0,2,Female,5 to 11
+2011,Romania,0,2,Male,5 to 11
+2011,Romania,0,3,Female,12 to 17
+2011,Romania,0,3,Male,12 to 17
+2011,Romania,0,4,Female,18 to 59
+2011,Romania,123,4,Male,18 to 59
+2011,Romania,0,5,Female,Above 60
+2011,Romania,0,5,Male,Above 60
+2011,Romania,0,6,Female,Unknown
+2011,Romania,0,6,Male,Unknown
+2011,Slovakia,15,1,Female,0 to 4
+2011,Slovakia,18,1,Male,0 to 4
+2011,Slovakia,13,2,Female,5 to 11
+2011,Slovakia,7,2,Male,5 to 11
+2011,Slovakia,13,3,Female,12 to 17
+2011,Slovakia,17,3,Male,12 to 17
+2011,Slovakia,59,4,Female,18 to 59
+2011,Slovakia,364,4,Male,18 to 59
+2011,Slovakia,3,5,Female,Above 60
+2011,Slovakia,2,5,Male,Above 60
+2011,Slovakia,0,6,Female,Unknown
+2011,Slovakia,0,6,Male,Unknown
+2011,Slovenia,0,1,Female,0 to 4
+2011,Slovenia,0,1,Male,0 to 4
+2011,Slovenia,0,2,Female,5 to 11
+2011,Slovenia,0,2,Male,5 to 11
+2011,Slovenia,0,3,Female,12 to 17
+2011,Slovenia,10,3,Male,12 to 17
+2011,Slovenia,20,4,Female,18 to 59
+2011,Slovenia,70,4,Male,18 to 59
+2011,Slovenia,0,5,Female,Above 60
+2011,Slovenia,0,5,Male,Above 60
+2011,Slovenia,0,6,Female,Unknown
+2011,Slovenia,0,6,Male,Unknown
+2011,Sweden,0,1,Female,0 to 4
+2011,Sweden,0,1,Male,0 to 4
+2011,Sweden,0,2,Female,5 to 11
+2011,Sweden,0,2,Male,5 to 11
+2011,Sweden,0,3,Female,12 to 17
+2011,Sweden,0,3,Male,12 to 17
+2011,Sweden,0,4,Female,18 to 59
+2011,Sweden,0,4,Male,18 to 59
+2011,Sweden,0,5,Female,Above 60
+2011,Sweden,0,5,Male,Above 60
+2011,Sweden,4241,6,Female,Unknown
+2011,Sweden,6103,6,Male,Unknown
+2011,Switzerland,1694,1,Female,0 to 4
+2011,Switzerland,1699,1,Male,0 to 4
+2011,Switzerland,2060,2,Female,5 to 11
+2011,Switzerland,2304,2,Male,5 to 11
+2011,Switzerland,1565,3,Female,12 to 17
+2011,Switzerland,1986,3,Male,12 to 17
+2011,Switzerland,9391,4,Female,18 to 59
+2011,Switzerland,18528,4,Male,18 to 59
+2011,Switzerland,627,5,Female,Above 60
+2011,Switzerland,371,5,Male,Above 60
+2011,Switzerland,11642,6,Female,Unknown
+2011,Switzerland,15464,6,Male,Unknown
+2011,Macedonia,166,1,Female,0 to 4
+2011,Macedonia,163,1,Male,0 to 4
+2011,Macedonia,187,2,Female,5 to 11
+2011,Macedonia,206,2,Male,5 to 11
+2011,Macedonia,143,3,Female,12 to 17
+2011,Macedonia,141,3,Male,12 to 17
+2011,Macedonia,766,4,Female,18 to 59
+2011,Macedonia,767,4,Male,18 to 59
+2011,Macedonia,50,5,Female,Above 60
+2011,Macedonia,47,5,Male,Above 60
+2011,Macedonia,0,6,Female,Unknown
+2011,Macedonia,0,6,Male,Unknown
+2011,Turkey,1019,1,Female,0 to 4
+2011,Turkey,1147,1,Male,0 to 4
+2011,Turkey,1556,2,Female,5 to 11
+2011,Turkey,1844,2,Male,5 to 11
+2011,Turkey,1300,3,Female,12 to 17
+2011,Turkey,1711,3,Male,12 to 17
+2011,Turkey,6665,4,Female,18 to 59
+2011,Turkey,9384,4,Male,18 to 59
+2011,Turkey,379,5,Female,Above 60
+2011,Turkey,424,5,Male,Above 60
+2011,Turkey,0,6,Female,Unknown
+2011,Turkey,0,6,Male,Unknown
+2012,Austria,0,1,Female,0 to 4
+2012,Austria,0,1,Male,0 to 4
+2012,Austria,0,2,Female,5 to 11
+2012,Austria,0,2,Male,5 to 11
+2012,Austria,0,3,Female,12 to 17
+2012,Austria,0,3,Male,12 to 17
+2012,Austria,0,4,Female,18 to 59
+2012,Austria,0,4,Male,18 to 59
+2012,Austria,0,5,Female,Above 60
+2012,Austria,0,5,Male,Above 60
+2012,Austria,5835,6,Female,Unknown
+2012,Austria,15971,6,Male,Unknown
+2012,Belgium,0,1,Female,0 to 4
+2012,Belgium,0,1,Male,0 to 4
+2012,Belgium,0,2,Female,5 to 11
+2012,Belgium,0,2,Male,5 to 11
+2012,Belgium,0,3,Female,12 to 17
+2012,Belgium,0,3,Male,12 to 17
+2012,Belgium,0,4,Female,18 to 59
+2012,Belgium,0,4,Male,18 to 59
+2012,Belgium,0,5,Female,Above 60
+2012,Belgium,0,5,Male,Above 60
+2012,Belgium,10938,6,Female,Unknown
+2012,Belgium,14984,6,Male,Unknown
+2012,Bulgaria,0,1,Female,0 to 4
+2012,Bulgaria,0,1,Male,0 to 4
+2012,Bulgaria,0,2,Female,5 to 11
+2012,Bulgaria,0,2,Male,5 to 11
+2012,Bulgaria,0,3,Female,12 to 17
+2012,Bulgaria,0,3,Male,12 to 17
+2012,Bulgaria,0,4,Female,18 to 59
+2012,Bulgaria,0,4,Male,18 to 59
+2012,Bulgaria,0,5,Female,Above 60
+2012,Bulgaria,0,5,Male,Above 60
+2012,Bulgaria,152,6,Female,Unknown
+2012,Bulgaria,1077,6,Male,Unknown
+2012,Croatia,14,1,Female,0 to 4
+2012,Croatia,15,1,Male,0 to 4
+2012,Croatia,27,2,Female,5 to 11
+2012,Croatia,35,2,Male,5 to 11
+2012,Croatia,19,3,Female,12 to 17
+2012,Croatia,59,3,Male,12 to 17
+2012,Croatia,235,4,Female,18 to 59
+2012,Croatia,482,4,Male,18 to 59
+2012,Croatia,135,5,Female,Above 60
+2012,Croatia,69,5,Male,Above 60
+2012,Croatia,10401,6,Female,Unknown
+2012,Croatia,9603,6,Male,Unknown
+2012,Czech Rep.,0,1,Female,0 to 4
+2012,Czech Rep.,0,1,Male,0 to 4
+2012,Czech Rep.,0,2,Female,5 to 11
+2012,Czech Rep.,0,2,Male,5 to 11
+2012,Czech Rep.,0,3,Female,12 to 17
+2012,Czech Rep.,0,3,Male,12 to 17
+2012,Czech Rep.,0,4,Female,18 to 59
+2012,Czech Rep.,0,4,Male,18 to 59
+2012,Czech Rep.,0,5,Female,Above 60
+2012,Czech Rep.,0,5,Male,Above 60
+2012,Czech Rep.,1665,6,Female,Unknown
+2012,Czech Rep.,2469,6,Male,Unknown
+2012,Denmark,0,1,Female,0 to 4
+2012,Denmark,0,1,Male,0 to 4
+2012,Denmark,0,2,Female,5 to 11
+2012,Denmark,0,2,Male,5 to 11
+2012,Denmark,0,3,Female,12 to 17
+2012,Denmark,0,3,Male,12 to 17
+2012,Denmark,0,4,Female,18 to 59
+2012,Denmark,0,4,Male,18 to 59
+2012,Denmark,0,5,Female,Above 60
+2012,Denmark,0,5,Male,Above 60
+2012,Denmark,1703,6,Female,Unknown
+2012,Denmark,1920,6,Male,Unknown
+2012,Estonia,0,1,Female,0 to 4
+2012,Estonia,2,1,Male,0 to 4
+2012,Estonia,0,2,Female,5 to 11
+2012,Estonia,2,2,Male,5 to 11
+2012,Estonia,0,3,Female,12 to 17
+2012,Estonia,0,3,Male,12 to 17
+2012,Estonia,10,4,Female,18 to 59
+2012,Estonia,55,4,Male,18 to 59
+2012,Estonia,1,5,Female,Above 60
+2012,Estonia,0,5,Male,Above 60
+2012,Estonia,0,6,Female,Unknown
+2012,Estonia,0,6,Male,Unknown
+2012,Finland,0,1,Female,0 to 4
+2012,Finland,0,1,Male,0 to 4
+2012,Finland,0,2,Female,5 to 11
+2012,Finland,0,2,Male,5 to 11
+2012,Finland,0,3,Female,12 to 17
+2012,Finland,0,3,Male,12 to 17
+2012,Finland,0,4,Female,18 to 59
+2012,Finland,0,4,Male,18 to 59
+2012,Finland,0,5,Female,Above 60
+2012,Finland,0,5,Male,Above 60
+2012,Finland,1467,6,Female,Unknown
+2012,Finland,2431,6,Male,Unknown
+2012,France,0,1,Female,0 to 4
+2012,France,0,1,Male,0 to 4
+2012,France,0,2,Female,5 to 11
+2012,France,0,2,Male,5 to 11
+2012,France,0,3,Female,12 to 17
+2012,France,0,3,Male,12 to 17
+2012,France,0,4,Female,18 to 59
+2012,France,0,4,Male,18 to 59
+2012,France,0,5,Female,Above 60
+2012,France,0,5,Male,Above 60
+2012,France,83827,6,Female,Unknown
+2012,France,117617,6,Male,Unknown
+2012,Germany,9648,1,Female,0 to 4
+2012,Germany,10353,1,Male,0 to 4
+2012,Germany,21742,2,Female,5 to 11
+2012,Germany,23681,2,Male,5 to 11
+2012,Germany,28747,3,Female,12 to 17
+2012,Germany,32514,3,Male,12 to 17
+2012,Germany,193579,4,Female,18 to 59
+2012,Germany,290733,4,Male,18 to 59
+2012,Germany,33804,5,Female,Above 60
+2012,Germany,30496,5,Male,Above 60
+2012,Germany,0,6,Female,Unknown
+2012,Germany,0,6,Male,Unknown
+2012,Hungary,0,1,Female,0 to 4
+2012,Hungary,0,1,Male,0 to 4
+2012,Hungary,0,2,Female,5 to 11
+2012,Hungary,0,2,Male,5 to 11
+2012,Hungary,0,3,Female,12 to 17
+2012,Hungary,0,3,Male,12 to 17
+2012,Hungary,0,4,Female,18 to 59
+2012,Hungary,0,4,Male,18 to 59
+2012,Hungary,0,5,Female,Above 60
+2012,Hungary,0,5,Male,Above 60
+2012,Hungary,69,6,Female,Unknown
+2012,Hungary,317,6,Male,Unknown
+2012,Iceland,5,1,Female,0 to 4
+2012,Iceland,2,1,Male,0 to 4
+2012,Iceland,1,2,Female,5 to 11
+2012,Iceland,5,2,Male,5 to 11
+2012,Iceland,5,3,Female,12 to 17
+2012,Iceland,2,3,Male,12 to 17
+2012,Iceland,24,4,Female,18 to 59
+2012,Iceland,83,4,Male,18 to 59
+2012,Iceland,0,5,Female,Above 60
+2012,Iceland,1,5,Male,Above 60
+2012,Iceland,52,6,Female,Unknown
+2012,Iceland,67,6,Male,Unknown
+2012,Ireland,0,1,Female,0 to 4
+2012,Ireland,0,1,Male,0 to 4
+2012,Ireland,0,2,Female,5 to 11
+2012,Ireland,0,2,Male,5 to 11
+2012,Ireland,0,3,Female,12 to 17
+2012,Ireland,0,3,Male,12 to 17
+2012,Ireland,0,4,Female,18 to 59
+2012,Ireland,0,4,Male,18 to 59
+2012,Ireland,0,5,Female,Above 60
+2012,Ireland,0,5,Male,Above 60
+2012,Ireland,359,6,Female,Unknown
+2012,Ireland,439,6,Male,Unknown
+2012,Italy,0,1,Female,0 to 4
+2012,Italy,0,1,Male,0 to 4
+2012,Italy,0,2,Female,5 to 11
+2012,Italy,0,2,Male,5 to 11
+2012,Italy,0,3,Female,12 to 17
+2012,Italy,0,3,Male,12 to 17
+2012,Italy,0,4,Female,18 to 59
+2012,Italy,0,4,Male,18 to 59
+2012,Italy,0,5,Female,Above 60
+2012,Italy,0,5,Male,Above 60
+2012,Italy,2293,6,Female,Unknown
+2012,Italy,12037,6,Male,Unknown
+2012,Latvia,7,1,Female,0 to 4
+2012,Latvia,8,1,Male,0 to 4
+2012,Latvia,2,2,Female,5 to 11
+2012,Latvia,18,2,Male,5 to 11
+2012,Latvia,7,3,Female,12 to 17
+2012,Latvia,7,3,Male,12 to 17
+2012,Latvia,49,4,Female,18 to 59
+2012,Latvia,171,4,Male,18 to 59
+2012,Latvia,1,5,Female,Above 60
+2012,Latvia,0,5,Male,Above 60
+2012,Latvia,0,6,Female,Unknown
+2012,Latvia,0,6,Male,Unknown
+2012,Lithuania,7,1,Female,0 to 4
+2012,Lithuania,5,1,Male,0 to 4
+2012,Lithuania,5,2,Female,5 to 11
+2012,Lithuania,8,2,Male,5 to 11
+2012,Lithuania,7,3,Female,12 to 17
+2012,Lithuania,9,3,Male,12 to 17
+2012,Lithuania,26,4,Female,18 to 59
+2012,Lithuania,83,4,Male,18 to 59
+2012,Lithuania,0,5,Female,Above 60
+2012,Lithuania,0,5,Male,Above 60
+2012,Lithuania,1666,6,Female,Unknown
+2012,Lithuania,2464,6,Male,Unknown
+2012,Norway,0,1,Female,0 to 4
+2012,Norway,0,1,Male,0 to 4
+2012,Norway,0,2,Female,5 to 11
+2012,Norway,0,2,Male,5 to 11
+2012,Norway,0,3,Female,12 to 17
+2012,Norway,0,3,Male,12 to 17
+2012,Norway,0,4,Female,18 to 59
+2012,Norway,0,4,Male,18 to 59
+2012,Norway,0,5,Female,Above 60
+2012,Norway,0,5,Male,Above 60
+2012,Norway,2950,6,Female,Unknown
+2012,Norway,6449,6,Male,Unknown
+2012,Poland,0,1,Female,0 to 4
+2012,Poland,0,1,Male,0 to 4
+2012,Poland,0,2,Female,5 to 11
+2012,Poland,0,2,Male,5 to 11
+2012,Poland,0,3,Female,12 to 17
+2012,Poland,0,3,Male,12 to 17
+2012,Poland,0,4,Female,18 to 59
+2012,Poland,0,4,Male,18 to 59
+2012,Poland,0,5,Female,Above 60
+2012,Poland,0,5,Male,Above 60
+2012,Poland,673,6,Female,Unknown
+2012,Poland,630,6,Male,Unknown
+2012,Romania,1,1,Female,0 to 4
+2012,Romania,1,1,Male,0 to 4
+2012,Romania,0,2,Female,5 to 11
+2012,Romania,0,2,Male,5 to 11
+2012,Romania,0,3,Female,12 to 17
+2012,Romania,34,3,Male,12 to 17
+2012,Romania,109,4,Female,18 to 59
+2012,Romania,1768,4,Male,18 to 59
+2012,Romania,0,5,Female,Above 60
+2012,Romania,0,5,Male,Above 60
+2012,Romania,0,6,Female,Unknown
+2012,Romania,0,6,Male,Unknown
+2012,Slovakia,29,1,Female,0 to 4
+2012,Slovakia,19,1,Male,0 to 4
+2012,Slovakia,22,2,Female,5 to 11
+2012,Slovakia,4,2,Male,5 to 11
+2012,Slovakia,10,3,Female,12 to 17
+2012,Slovakia,7,3,Male,12 to 17
+2012,Slovakia,70,4,Female,18 to 59
+2012,Slovakia,603,4,Male,18 to 59
+2012,Slovakia,0,5,Female,Above 60
+2012,Slovakia,0,5,Male,Above 60
+2012,Slovakia,0,6,Female,Unknown
+2012,Slovakia,0,6,Male,Unknown
+2012,Slovenia,2,1,Female,0 to 4
+2012,Slovenia,4,1,Male,0 to 4
+2012,Slovenia,9,2,Female,5 to 11
+2012,Slovenia,16,2,Male,5 to 11
+2012,Slovenia,6,3,Female,12 to 17
+2012,Slovenia,28,3,Male,12 to 17
+2012,Slovenia,48,4,Female,18 to 59
+2012,Slovenia,163,4,Male,18 to 59
+2012,Slovenia,0,5,Female,Above 60
+2012,Slovenia,0,5,Male,Above 60
+2012,Slovenia,0,6,Female,Unknown
+2012,Slovenia,0,6,Male,Unknown
+2012,Sweden,0,1,Female,0 to 4
+2012,Sweden,0,1,Male,0 to 4
+2012,Sweden,0,2,Female,5 to 11
+2012,Sweden,0,2,Male,5 to 11
+2012,Sweden,0,3,Female,12 to 17
+2012,Sweden,0,3,Male,12 to 17
+2012,Sweden,0,4,Female,18 to 59
+2012,Sweden,0,4,Male,18 to 59
+2012,Sweden,0,5,Female,Above 60
+2012,Sweden,0,5,Male,Above 60
+2012,Sweden,10655,6,Female,Unknown
+2012,Sweden,16018,6,Male,Unknown
+2012,Switzerland,1615,1,Female,0 to 4
+2012,Switzerland,1692,1,Male,0 to 4
+2012,Switzerland,2145,2,Female,5 to 11
+2012,Switzerland,2292,2,Male,5 to 11
+2012,Switzerland,1611,3,Female,12 to 17
+2012,Switzerland,2047,3,Male,12 to 17
+2012,Switzerland,9840,4,Female,18 to 59
+2012,Switzerland,18027,4,Male,18 to 59
+2012,Switzerland,642,5,Female,Above 60
+2012,Switzerland,380,5,Male,Above 60
+2012,Switzerland,13827,6,Female,Unknown
+2012,Switzerland,18338,6,Male,Unknown
+2012,Macedonia,140,1,Female,0 to 4
+2012,Macedonia,143,1,Male,0 to 4
+2012,Macedonia,172,2,Female,5 to 11
+2012,Macedonia,189,2,Male,5 to 11
+2012,Macedonia,144,3,Female,12 to 17
+2012,Macedonia,171,3,Male,12 to 17
+2012,Macedonia,766,4,Female,18 to 59
+2012,Macedonia,883,4,Male,18 to 59
+2012,Macedonia,54,5,Female,Above 60
+2012,Macedonia,50,5,Male,Above 60
+2012,Macedonia,0,6,Female,Unknown
+2012,Macedonia,0,6,Male,Unknown
+2012,Turkey,1274,1,Female,0 to 4
+2012,Turkey,1389,1,Male,0 to 4
+2012,Turkey,2123,2,Female,5 to 11
+2012,Turkey,2415,2,Male,5 to 11
+2012,Turkey,1706,3,Female,12 to 17
+2012,Turkey,2499,3,Male,12 to 17
+2012,Turkey,8519,4,Female,18 to 59
+2012,Turkey,11749,4,Male,18 to 59
+2012,Turkey,474,5,Female,Above 60
+2012,Turkey,525,5,Male,Above 60
+2012,Turkey,72191,6,Female,Unknown
+2012,Turkey,78949,6,Male,Unknown
+2013,Bulgaria,254,1,Female,0 to 4
+2013,Bulgaria,228,1,Male,0 to 4
+2013,Bulgaria,388,2,Female,5 to 11
+2013,Bulgaria,585,2,Male,5 to 11
+2013,Bulgaria,50,3,Female,12 to 17
+2013,Bulgaria,97,3,Male,12 to 17
+2013,Bulgaria,888,4,Female,18 to 59
+2013,Bulgaria,2008,4,Male,18 to 59
+2013,Bulgaria,36,5,Female,Above 60
+2013,Bulgaria,26,5,Male,Above 60
+2013,Bulgaria,0,6,Female,Unknown
+2013,Bulgaria,0,6,Male,Unknown
+2013,Croatia,5,1,Female,0 to 4
+2013,Croatia,4,1,Male,0 to 4
+2013,Croatia,6,2,Female,5 to 11
+2013,Croatia,4,2,Male,5 to 11
+2013,Croatia,7,3,Female,12 to 17
+2013,Croatia,16,3,Male,12 to 17
+2013,Croatia,30,4,Female,18 to 59
+2013,Croatia,237,4,Male,18 to 59
+2013,Croatia,0,5,Female,Above 60
+2013,Croatia,0,5,Male,Above 60
+2013,Croatia,0,6,Female,Unknown
+2013,Croatia,0,6,Male,Unknown
+2013,Denmark,104,1,Female,0 to 4
+2013,Denmark,106,1,Male,0 to 4
+2013,Denmark,125,2,Female,5 to 11
+2013,Denmark,127,2,Male,5 to 11
+2013,Denmark,110,3,Female,12 to 17
+2013,Denmark,122,3,Male,12 to 17
+2013,Denmark,1433,4,Female,18 to 59
+2013,Denmark,1705,4,Male,18 to 59
+2013,Denmark,236,5,Female,Above 60
+2013,Denmark,195,5,Male,Above 60
+2013,Denmark,0,6,Female,Unknown
+2013,Denmark,0,6,Male,Unknown
+2013,Estonia,0,1,Female,0 to 4
+2013,Estonia,2,1,Male,0 to 4
+2013,Estonia,1,2,Female,5 to 11
+2013,Estonia,2,2,Male,5 to 11
+2013,Estonia,0,3,Female,12 to 17
+2013,Estonia,1,3,Male,12 to 17
+2013,Estonia,14,4,Female,18 to 59
+2013,Estonia,75,4,Male,18 to 59
+2013,Estonia,0,5,Female,Above 60
+2013,Estonia,0,5,Male,Above 60
+2013,Estonia,0,6,Female,Unknown
+2013,Estonia,0,6,Male,Unknown
+2013,Germany,10972,1,Female,0 to 4
+2013,Germany,11807,1,Male,0 to 4
+2013,Germany,15318,2,Female,5 to 11
+2013,Germany,16911,2,Male,5 to 11
+2013,Germany,12294,3,Female,12 to 17
+2013,Germany,16278,3,Male,12 to 17
+2013,Germany,77828,4,Female,18 to 59
+2013,Germany,142319,4,Male,18 to 59
+2013,Germany,9912,5,Female,Above 60
+2013,Germany,9509,5,Male,Above 60
+2013,Germany,0,6,Female,Unknown
+2013,Germany,0,6,Male,Unknown
+2013,Ireland,23,1,Female,0 to 4
+2013,Ireland,28,1,Male,0 to 4
+2013,Ireland,116,2,Female,5 to 11
+2013,Ireland,129,2,Male,5 to 11
+2013,Ireland,249,3,Female,12 to 17
+2013,Ireland,238,3,Male,12 to 17
+2013,Ireland,1821,4,Female,18 to 59
+2013,Ireland,3161,4,Male,18 to 59
+2013,Ireland,106,5,Female,Above 60
+2013,Ireland,130,5,Male,Above 60
+2013,Ireland,0,6,Female,Unknown
+2013,Ireland,0,6,Male,Unknown
+2013,Latvia,9,1,Female,0 to 4
+2013,Latvia,11,1,Male,0 to 4
+2013,Latvia,3,2,Female,5 to 11
+2013,Latvia,12,2,Male,5 to 11
+2013,Latvia,9,3,Female,12 to 17
+2013,Latvia,16,3,Male,12 to 17
+2013,Latvia,56,4,Female,18 to 59
+2013,Latvia,210,4,Male,18 to 59
+2013,Latvia,1,5,Female,Above 60
+2013,Latvia,0,5,Male,Above 60
+2013,Latvia,0,6,Female,Unknown
+2013,Latvia,0,6,Male,Unknown
+2013,Lithuania,13,1,Female,0 to 4
+2013,Lithuania,6,1,Male,0 to 4
+2013,Lithuania,15,2,Female,5 to 11
+2013,Lithuania,11,2,Male,5 to 11
+2013,Lithuania,2,3,Female,12 to 17
+2013,Lithuania,11,3,Male,12 to 17
+2013,Lithuania,32,4,Female,18 to 59
+2013,Lithuania,95,4,Male,18 to 59
+2013,Lithuania,2,5,Female,Above 60
+2013,Lithuania,2,5,Male,Above 60
+2013,Lithuania,0,6,Female,Unknown
+2013,Lithuania,0,6,Male,Unknown
+2013,Poland,200,1,Female,0 to 4
+2013,Poland,232,1,Male,0 to 4
+2013,Poland,230,2,Female,5 to 11
+2013,Poland,268,2,Male,5 to 11
+2013,Poland,97,3,Female,12 to 17
+2013,Poland,97,3,Male,12 to 17
+2013,Poland,421,4,Female,18 to 59
+2013,Poland,393,4,Male,18 to 59
+2013,Poland,7,5,Female,Above 60
+2013,Poland,9,5,Male,Above 60
+2013,Poland,0,6,Female,Unknown
+2013,Poland,0,6,Male,Unknown
+2013,Slovenia,2,1,Female,0 to 4
+2013,Slovenia,4,1,Male,0 to 4
+2013,Slovenia,9,2,Female,5 to 11
+2013,Slovenia,18,2,Male,5 to 11
+2013,Slovenia,6,3,Female,12 to 17
+2013,Slovenia,27,3,Male,12 to 17
+2013,Slovenia,40,4,Female,18 to 59
+2013,Slovenia,132,4,Male,18 to 59
+2013,Slovenia,0,5,Female,Above 60
+2013,Slovenia,0,5,Male,Above 60
+2013,Slovenia,0,6,Female,Unknown
+2013,Slovenia,0,6,Male,Unknown
+2013,Switzerland,1794,1,Female,0 to 4
+2013,Switzerland,1933,1,Male,0 to 4
+2013,Switzerland,2258,2,Female,5 to 11
+2013,Switzerland,2465,2,Male,5 to 11
+2013,Switzerland,1659,3,Female,12 to 17
+2013,Switzerland,2083,3,Male,12 to 17
+2013,Switzerland,10882,4,Female,18 to 59
+2013,Switzerland,18516,4,Male,18 to 59
+2013,Switzerland,674,5,Female,Above 60
+2013,Switzerland,437,5,Male,Above 60
+2013,Switzerland,0,6,Female,Unknown
+2013,Switzerland,0,6,Male,Unknown
+2013,Macedonia,79,1,Female,0 to 4
+2013,Macedonia,91,1,Male,0 to 4
+2013,Macedonia,159,2,Female,5 to 11
+2013,Macedonia,186,2,Male,5 to 11
+2013,Macedonia,131,3,Female,12 to 17
+2013,Macedonia,235,3,Male,12 to 17
+2013,Macedonia,628,4,Female,18 to 59
+2013,Macedonia,1263,4,Male,18 to 59
+2013,Macedonia,72,5,Female,Above 60
+2013,Macedonia,35,5,Male,Above 60
+2013,Macedonia,0,6,Female,Unknown
+2013,Macedonia,0,6,Male,Unknown
+2013,Turkey,1460,1,Female,0 to 4
+2013,Turkey,1537,1,Male,0 to 4
+2013,Turkey,2614,2,Female,5 to 11
+2013,Turkey,2909,2,Male,5 to 11
+2013,Turkey,2068,3,Female,12 to 17
+2013,Turkey,2865,3,Male,12 to 17
+2013,Turkey,10246,4,Female,18 to 59
+2013,Turkey,14314,4,Male,18 to 59
+2013,Turkey,543,5,Female,Above 60
+2013,Turkey,581,5,Male,Above 60
+2013,Turkey,0,6,Female,Unknown
+2013,Turkey,0,6,Male,Unknown
+2014,Croatia,4,1,Female,0 to 4
+2014,Croatia,3,1,Male,0 to 4
+2014,Croatia,7,2,Female,5 to 11
+2014,Croatia,3,2,Male,5 to 11
+2014,Croatia,11,3,Female,12 to 17
+2014,Croatia,16,3,Male,12 to 17
+2014,Croatia,27,4,Female,18 to 59
+2014,Croatia,173,4,Male,18 to 59
+2014,Croatia,0,5,Female,Above 60
+2014,Croatia,0,5,Male,Above 60
+2014,Croatia,0,6,Female,Unknown
+2014,Croatia,0,6,Male,Unknown
+2014,Estonia,2,1,Female,0 to 4
+2014,Estonia,4,1,Male,0 to 4
+2014,Estonia,3,2,Female,5 to 11
+2014,Estonia,7,2,Male,5 to 11
+2014,Estonia,2,3,Female,12 to 17
+2014,Estonia,2,3,Male,12 to 17
+2014,Estonia,26,4,Female,18 to 59
+2014,Estonia,134,4,Male,18 to 59
+2014,Estonia,3,5,Female,Above 60
+2014,Estonia,2,5,Male,Above 60
+2014,Estonia,0,6,Female,Unknown
+2014,Estonia,0,6,Male,Unknown
+2014,Germany,16785,1,Female,0 to 4
+2014,Germany,18134,1,Male,0 to 4
+2014,Germany,21353,2,Female,5 to 11
+2014,Germany,23532,2,Male,5 to 11
+2014,Germany,15336,3,Female,12 to 17
+2014,Germany,21560,3,Male,12 to 17
+2014,Germany,104457,4,Female,18 to 59
+2014,Germany,208993,4,Male,18 to 59
+2014,Germany,12435,5,Female,Above 60
+2014,Germany,12496,5,Male,Above 60
+2014,Germany,0,6,Female,Unknown
+2014,Germany,0,6,Male,Unknown
+2014,Ireland,91,1,Female,0 to 4
+2014,Ireland,102,1,Male,0 to 4
+2014,Ireland,191,2,Female,5 to 11
+2014,Ireland,186,2,Male,5 to 11
+2014,Ireland,240,3,Female,12 to 17
+2014,Ireland,257,3,Male,12 to 17
+2014,Ireland,2257,4,Female,18 to 59
+2014,Ireland,4382,4,Male,18 to 59
+2014,Ireland,159,5,Female,Above 60
+2014,Ireland,129,5,Male,Above 60
+2014,Ireland,0,6,Female,Unknown
+2014,Ireland,0,6,Male,Unknown
+2014,Latvia,13,1,Female,0 to 4
+2014,Latvia,8,1,Male,0 to 4
+2014,Latvia,7,2,Female,5 to 11
+2014,Latvia,16,2,Male,5 to 11
+2014,Latvia,10,3,Female,12 to 17
+2014,Latvia,15,3,Male,12 to 17
+2014,Latvia,74,4,Female,18 to 59
+2014,Latvia,265,4,Male,18 to 59
+2014,Latvia,12,5,Female,Above 60
+2014,Latvia,2,5,Male,Above 60
+2014,Latvia,0,6,Female,Unknown
+2014,Latvia,0,6,Male,Unknown
+2014,Lithuania,14,1,Female,0 to 4
+2014,Lithuania,8,1,Male,0 to 4
+2014,Lithuania,20,2,Female,5 to 11
+2014,Lithuania,21,2,Male,5 to 11
+2014,Lithuania,14,3,Female,12 to 17
+2014,Lithuania,21,3,Male,12 to 17
+2014,Lithuania,1017,4,Female,18 to 59
+2014,Lithuania,1594,4,Male,18 to 59
+2014,Lithuania,518,5,Female,Above 60
+2014,Lithuania,658,5,Male,Above 60
+2014,Lithuania,0,6,Female,Unknown
+2014,Lithuania,0,6,Male,Unknown
+2014,Malta,0,1,Female,0 to 4
+2014,Malta,0,1,Male,0 to 4
+2014,Malta,0,2,Female,5 to 11
+2014,Malta,0,2,Male,5 to 11
+2014,Malta,0,3,Female,12 to 17
+2014,Malta,0,3,Male,12 to 17
+2014,Malta,0,4,Female,18 to 59
+2014,Malta,0,4,Male,18 to 59
+2014,Malta,0,5,Female,Above 60
+2014,Malta,0,5,Male,Above 60
+2014,Malta,0,6,Female,Unknown
+2014,Malta,0,6,Male,Unknown
+2014,Netherlands,0,1,Female,0 to 4
+2014,Netherlands,0,1,Male,0 to 4
+2014,Netherlands,0,2,Female,5 to 11
+2014,Netherlands,0,2,Male,5 to 11
+2014,Netherlands,0,3,Female,12 to 17
+2014,Netherlands,0,3,Male,12 to 17
+2014,Netherlands,0,4,Female,18 to 59
+2014,Netherlands,0,4,Male,18 to 59
+2014,Netherlands,0,5,Female,Above 60
+2014,Netherlands,0,5,Male,Above 60
+2014,Netherlands,0,6,Female,Unknown
+2014,Netherlands,0,6,Male,Unknown
+2014,Norway,0,1,Female,0 to 4
+2014,Norway,0,1,Male,0 to 4
+2014,Norway,0,2,Female,5 to 11
+2014,Norway,0,2,Male,5 to 11
+2014,Norway,0,3,Female,12 to 17
+2014,Norway,0,3,Male,12 to 17
+2014,Norway,0,4,Female,18 to 59
+2014,Norway,0,4,Male,18 to 59
+2014,Norway,0,5,Female,Above 60
+2014,Norway,0,5,Male,Above 60
+2014,Norway,0,6,Female,Unknown
+2014,Norway,0,6,Male,Unknown
+2014,Poland,242,1,Female,0 to 4
+2014,Poland,254,1,Male,0 to 4
+2014,Poland,328,2,Female,5 to 11
+2014,Poland,300,2,Male,5 to 11
+2014,Poland,117,3,Female,12 to 17
+2014,Poland,168,3,Male,12 to 17
+2014,Poland,660,4,Female,18 to 59
+2014,Poland,602,4,Male,18 to 59
+2014,Poland,12,5,Female,Above 60
+2014,Poland,9,5,Male,Above 60
+2014,Poland,0,6,Female,Unknown
+2014,Poland,0,6,Male,Unknown
+2014,Portugal,0,1,Female,0 to 4
+2014,Portugal,0,1,Male,0 to 4
+2014,Portugal,0,2,Female,5 to 11
+2014,Portugal,0,2,Male,5 to 11
+2014,Portugal,0,3,Female,12 to 17
+2014,Portugal,0,3,Male,12 to 17
+2014,Portugal,0,4,Female,18 to 59
+2014,Portugal,0,4,Male,18 to 59
+2014,Portugal,0,5,Female,Above 60
+2014,Portugal,0,5,Male,Above 60
+2014,Portugal,0,6,Female,Unknown
+2014,Portugal,0,6,Male,Unknown
+2014,Romania,174,1,Female,0 to 4
+2014,Romania,232,1,Male,0 to 4
+2014,Romania,196,2,Female,5 to 11
+2014,Romania,212,2,Male,5 to 11
+2014,Romania,138,3,Female,12 to 17
+2014,Romania,176,3,Male,12 to 17
+2014,Romania,812,4,Female,18 to 59
+2014,Romania,2286,4,Male,18 to 59
+2014,Romania,60,5,Female,Above 60
+2014,Romania,78,5,Male,Above 60
+2014,Romania,0,6,Female,Unknown
+2014,Romania,0,6,Male,Unknown
+2014,Slovakia,0,1,Female,0 to 4
+2014,Slovakia,0,1,Male,0 to 4
+2014,Slovakia,0,2,Female,5 to 11
+2014,Slovakia,0,2,Male,5 to 11
+2014,Slovakia,0,3,Female,12 to 17
+2014,Slovakia,0,3,Male,12 to 17
+2014,Slovakia,0,4,Female,18 to 59
+2014,Slovakia,0,4,Male,18 to 59
+2014,Slovakia,0,5,Female,Above 60
+2014,Slovakia,0,5,Male,Above 60
+2014,Slovakia,0,6,Female,Unknown
+2014,Slovakia,0,6,Male,Unknown
+2014,Slovenia,2,1,Female,0 to 4
+2014,Slovenia,4,1,Male,0 to 4
+2014,Slovenia,20,2,Female,5 to 11
+2014,Slovenia,34,2,Male,5 to 11
+2014,Slovenia,16,3,Female,12 to 17
+2014,Slovenia,62,3,Male,12 to 17
+2014,Slovenia,146,4,Female,18 to 59
+2014,Slovenia,370,4,Male,18 to 59
+2014,Slovenia,0,5,Female,Above 60
+2014,Slovenia,0,5,Male,Above 60
+2014,Slovenia,0,6,Female,Unknown
+2014,Slovenia,0,6,Male,Unknown
+2014,Spain,0,1,Female,0 to 4
+2014,Spain,0,1,Male,0 to 4
+2014,Spain,0,2,Female,5 to 11
+2014,Spain,0,2,Male,5 to 11
+2014,Spain,0,3,Female,12 to 17
+2014,Spain,0,3,Male,12 to 17
+2014,Spain,0,4,Female,18 to 59
+2014,Spain,0,4,Male,18 to 59
+2014,Spain,0,5,Female,Above 60
+2014,Spain,0,5,Male,Above 60
+2014,Spain,0,6,Female,Unknown
+2014,Spain,0,6,Male,Unknown
+2014,Sweden,0,1,Female,0 to 4
+2014,Sweden,0,1,Male,0 to 4
+2014,Sweden,0,2,Female,5 to 11
+2014,Sweden,0,2,Male,5 to 11
+2014,Sweden,0,3,Female,12 to 17
+2014,Sweden,0,3,Male,12 to 17
+2014,Sweden,0,4,Female,18 to 59
+2014,Sweden,0,4,Male,18 to 59
+2014,Sweden,0,5,Female,Above 60
+2014,Sweden,0,5,Male,Above 60
+2014,Sweden,0,6,Female,Unknown
+2014,Sweden,0,6,Male,Unknown
+2014,Switzerland,4086,1,Female,0 to 4
+2014,Switzerland,4234,1,Male,0 to 4
+2014,Switzerland,5080,2,Female,5 to 11
+2014,Switzerland,5402,2,Male,5 to 11
+2014,Switzerland,3542,3,Female,12 to 17
+2014,Switzerland,5304,3,Male,12 to 17
+2014,Switzerland,24090,4,Female,18 to 59
+2014,Switzerland,40524,4,Male,18 to 59
+2014,Switzerland,1528,5,Female,Above 60
+2014,Switzerland,1020,5,Male,Above 60
+2014,Switzerland,0,6,Female,Unknown
+2014,Switzerland,0,6,Male,Unknown
+2014,Macedonia,110,1,Female,0 to 4
+2014,Macedonia,115,1,Male,0 to 4
+2014,Macedonia,381,2,Female,5 to 11
+2014,Macedonia,421,2,Male,5 to 11
+2014,Macedonia,242,3,Female,12 to 17
+2014,Macedonia,372,3,Male,12 to 17
+2014,Macedonia,1229,4,Female,18 to 59
+2014,Macedonia,3151,4,Male,18 to 59
+2014,Macedonia,144,5,Female,Above 60
+2014,Macedonia,82,5,Male,Above 60
+2014,Macedonia,0,6,Female,Unknown
+2014,Macedonia,0,6,Male,Unknown
+2014,Turkey,13351,1,Female,0 to 4
+2014,Turkey,14601,1,Male,0 to 4
+2014,Turkey,18696,2,Female,5 to 11
+2014,Turkey,20668,2,Male,5 to 11
+2014,Turkey,13478,3,Female,12 to 17
+2014,Turkey,19987,3,Male,12 to 17
+2014,Turkey,65095,4,Female,18 to 59
+2014,Turkey,105738,4,Male,18 to 59
+2014,Turkey,3314,5,Female,Above 60
+2014,Turkey,3302,5,Male,Above 60
+2014,Turkey,0,6,Female,Unknown
+2014,Turkey,0,6,Male,Unknown
+2014,United Kingdom,0,1,Female,0 to 4
+2014,United Kingdom,0,1,Male,0 to 4
+2014,United Kingdom,0,2,Female,5 to 11
+2014,United Kingdom,0,2,Male,5 to 11
+2014,United Kingdom,0,3,Female,12 to 17
+2014,United Kingdom,0,3,Male,12 to 17
+2014,United Kingdom,0,4,Female,18 to 59
+2014,United Kingdom,0,4,Male,18 to 59
+2014,United Kingdom,0,5,Female,Above 60
+2014,United Kingdom,0,5,Male,Above 60
+2014,United Kingdom,0,6,Female,Unknown
+2014,United Kingdom,0,6,Male,Unknown
+2015,Austria,0,1,Female,0 to 4
+2015,Austria,0,1,Male,0 to 4
+2015,Austria,0,2,Female,5 to 11
+2015,Austria,0,2,Male,5 to 11
+2015,Austria,0,3,Female,12 to 17
+2015,Austria,0,3,Male,12 to 17
+2015,Austria,0,4,Female,18 to 59
+2015,Austria,0,4,Male,18 to 59
+2015,Austria,0,5,Female,Above 60
+2015,Austria,0,5,Male,Above 60
+2015,Austria,0,6,Female,Unknown
+2015,Austria,0,6,Male,Unknown
+2015,Belgium,0,1,Female,0 to 4
+2015,Belgium,0,1,Male,0 to 4
+2015,Belgium,0,2,Female,5 to 11
+2015,Belgium,0,2,Male,5 to 11
+2015,Belgium,0,3,Female,12 to 17
+2015,Belgium,0,3,Male,12 to 17
+2015,Belgium,0,4,Female,18 to 59
+2015,Belgium,0,4,Male,18 to 59
+2015,Belgium,0,5,Female,Above 60
+2015,Belgium,0,5,Male,Above 60
+2015,Belgium,0,6,Female,Unknown
+2015,Belgium,0,6,Male,Unknown
+2015,Bulgaria,0,1,Female,0 to 4
+2015,Bulgaria,0,1,Male,0 to 4
+2015,Bulgaria,0,2,Female,5 to 11
+2015,Bulgaria,0,2,Male,5 to 11
+2015,Bulgaria,0,3,Female,12 to 17
+2015,Bulgaria,0,3,Male,12 to 17
+2015,Bulgaria,0,4,Female,18 to 59
+2015,Bulgaria,0,4,Male,18 to 59
+2015,Bulgaria,0,5,Female,Above 60
+2015,Bulgaria,0,5,Male,Above 60
+2015,Bulgaria,0,6,Female,Unknown
+2015,Bulgaria,0,6,Male,Unknown
+2015,Croatia,16,1,Female,0 to 4
+2015,Croatia,4,1,Male,0 to 4
+2015,Croatia,21,2,Female,5 to 11
+2015,Croatia,13,2,Male,5 to 11
+2015,Croatia,20,3,Female,12 to 17
+2015,Croatia,28,3,Male,12 to 17
+2015,Croatia,35,4,Female,18 to 59
+2015,Croatia,288,4,Male,18 to 59
+2015,Croatia,0,5,Female,Above 60
+2015,Croatia,0,5,Male,Above 60
+2015,Croatia,0,6,Female,Unknown
+2015,Croatia,0,6,Male,Unknown
+2015,Cyprus,0,1,Female,0 to 4
+2015,Cyprus,0,1,Male,0 to 4
+2015,Cyprus,0,2,Female,5 to 11
+2015,Cyprus,0,2,Male,5 to 11
+2015,Cyprus,0,3,Female,12 to 17
+2015,Cyprus,0,3,Male,12 to 17
+2015,Cyprus,0,4,Female,18 to 59
+2015,Cyprus,0,4,Male,18 to 59
+2015,Cyprus,0,5,Female,Above 60
+2015,Cyprus,0,5,Male,Above 60
+2015,Cyprus,0,6,Female,Unknown
+2015,Cyprus,0,6,Male,Unknown
+2015,Czech Rep.,0,1,Female,0 to 4
+2015,Czech Rep.,0,1,Male,0 to 4
+2015,Czech Rep.,0,2,Female,5 to 11
+2015,Czech Rep.,0,2,Male,5 to 11
+2015,Czech Rep.,0,3,Female,12 to 17
+2015,Czech Rep.,0,3,Male,12 to 17
+2015,Czech Rep.,0,4,Female,18 to 59
+2015,Czech Rep.,0,4,Male,18 to 59
+2015,Czech Rep.,0,5,Female,Above 60
+2015,Czech Rep.,0,5,Male,Above 60
+2015,Czech Rep.,0,6,Female,Unknown
+2015,Czech Rep.,0,6,Male,Unknown
+2015,Denmark,0,1,Female,0 to 4
+2015,Denmark,0,1,Male,0 to 4
+2015,Denmark,0,2,Female,5 to 11
+2015,Denmark,0,2,Male,5 to 11
+2015,Denmark,0,3,Female,12 to 17
+2015,Denmark,0,3,Male,12 to 17
+2015,Denmark,0,4,Female,18 to 59
+2015,Denmark,0,4,Male,18 to 59
+2015,Denmark,0,5,Female,Above 60
+2015,Denmark,0,5,Male,Above 60
+2015,Denmark,0,6,Female,Unknown
+2015,Denmark,0,6,Male,Unknown
+2015,Estonia,10,1,Female,0 to 4
+2015,Estonia,24,1,Male,0 to 4
+2015,Estonia,0,2,Female,5 to 11
+2015,Estonia,0,2,Male,5 to 11
+2015,Estonia,24,3,Female,12 to 17
+2015,Estonia,32,3,Male,12 to 17
+2015,Estonia,70,4,Female,18 to 59
+2015,Estonia,260,4,Male,18 to 59
+2015,Estonia,16,5,Female,Above 60
+2015,Estonia,2,5,Male,Above 60
+2015,Estonia,0,6,Female,Unknown
+2015,Estonia,0,6,Male,Unknown
+2015,Finland,0,1,Female,0 to 4
+2015,Finland,0,1,Male,0 to 4
+2015,Finland,0,2,Female,5 to 11
+2015,Finland,0,2,Male,5 to 11
+2015,Finland,0,3,Female,12 to 17
+2015,Finland,0,3,Male,12 to 17
+2015,Finland,0,4,Female,18 to 59
+2015,Finland,0,4,Male,18 to 59
+2015,Finland,0,5,Female,Above 60
+2015,Finland,0,5,Male,Above 60
+2015,Finland,0,6,Female,Unknown
+2015,Finland,0,6,Male,Unknown
+2015,France,0,1,Female,0 to 4
+2015,France,0,1,Male,0 to 4
+2015,France,0,2,Female,5 to 11
+2015,France,0,2,Male,5 to 11
+2015,France,0,3,Female,12 to 17
+2015,France,0,3,Male,12 to 17
+2015,France,0,4,Female,18 to 59
+2015,France,0,4,Male,18 to 59
+2015,France,0,5,Female,Above 60
+2015,France,0,5,Male,Above 60
+2015,France,0,6,Female,Unknown
+2015,France,0,6,Male,Unknown
+2015,Germany,58840,1,Female,0 to 4
+2015,Germany,63876,1,Male,0 to 4
+2015,Germany,71074,2,Female,5 to 11
+2015,Germany,81842,2,Male,5 to 11
+2015,Germany,46558,3,Female,12 to 17
+2015,Germany,80202,3,Male,12 to 17
+2015,Germany,321128,4,Female,18 to 59
+2015,Germany,767838,4,Male,18 to 59
+2015,Germany,29888,5,Female,Above 60
+2015,Germany,30448,5,Male,Above 60
+2015,Germany,0,6,Female,Unknown
+2015,Germany,0,6,Male,Unknown
+2015,Greece,0,1,Female,0 to 4
+2015,Greece,0,1,Male,0 to 4
+2015,Greece,0,2,Female,5 to 11
+2015,Greece,0,2,Male,5 to 11
+2015,Greece,0,3,Female,12 to 17
+2015,Greece,0,3,Male,12 to 17
+2015,Greece,0,4,Female,18 to 59
+2015,Greece,0,4,Male,18 to 59
+2015,Greece,0,5,Female,Above 60
+2015,Greece,0,5,Male,Above 60
+2015,Greece,0,6,Female,Unknown
+2015,Greece,0,6,Male,Unknown
+2015,Hungary,0,1,Female,0 to 4
+2015,Hungary,0,1,Male,0 to 4
+2015,Hungary,0,2,Female,5 to 11
+2015,Hungary,0,2,Male,5 to 11
+2015,Hungary,0,3,Female,12 to 17
+2015,Hungary,0,3,Male,12 to 17
+2015,Hungary,0,4,Female,18 to 59
+2015,Hungary,0,4,Male,18 to 59
+2015,Hungary,0,5,Female,Above 60
+2015,Hungary,0,5,Male,Above 60
+2015,Hungary,0,6,Female,Unknown
+2015,Hungary,0,6,Male,Unknown
+2015,Iceland,0,1,Female,0 to 4
+2015,Iceland,0,1,Male,0 to 4
+2015,Iceland,0,2,Female,5 to 11
+2015,Iceland,0,2,Male,5 to 11
+2015,Iceland,0,3,Female,12 to 17
+2015,Iceland,0,3,Male,12 to 17
+2015,Iceland,0,4,Female,18 to 59
+2015,Iceland,0,4,Male,18 to 59
+2015,Iceland,0,5,Female,Above 60
+2015,Iceland,0,5,Male,Above 60
+2015,Iceland,0,6,Female,Unknown
+2015,Iceland,0,6,Male,Unknown
+2015,Ireland,318,1,Female,0 to 4
+2015,Ireland,346,1,Male,0 to 4
+2015,Ireland,548,2,Female,5 to 11
+2015,Ireland,564,2,Male,5 to 11
+2015,Ireland,520,3,Female,12 to 17
+2015,Ireland,554,3,Male,12 to 17
+2015,Ireland,5722,4,Female,18 to 59
+2015,Ireland,12466,4,Male,18 to 59
+2015,Ireland,276,5,Female,Above 60
+2015,Ireland,414,5,Male,Above 60
+2015,Ireland,0,6,Female,Unknown
+2015,Ireland,0,6,Male,Unknown
+2015,Italy,0,1,Female,0 to 4
+2015,Italy,0,1,Male,0 to 4
+2015,Italy,0,2,Female,5 to 11
+2015,Italy,0,2,Male,5 to 11
+2015,Italy,0,3,Female,12 to 17
+2015,Italy,0,3,Male,12 to 17
+2015,Italy,0,4,Female,18 to 59
+2015,Italy,0,4,Male,18 to 59
+2015,Italy,0,5,Female,Above 60
+2015,Italy,0,5,Male,Above 60
+2015,Italy,0,6,Female,Unknown
+2015,Italy,0,6,Male,Unknown
+2015,Latvia,0,1,Female,0 to 4
+2015,Latvia,0,1,Male,0 to 4
+2015,Latvia,0,2,Female,5 to 11
+2015,Latvia,0,2,Male,5 to 11
+2015,Latvia,0,3,Female,12 to 17
+2015,Latvia,0,3,Male,12 to 17
+2015,Latvia,0,4,Female,18 to 59
+2015,Latvia,0,4,Male,18 to 59
+2015,Latvia,0,5,Female,Above 60
+2015,Latvia,0,5,Male,Above 60
+2015,Latvia,0,6,Female,Unknown
+2015,Latvia,0,6,Male,Unknown
+2015,Lithuania,20,1,Female,0 to 4
+2015,Lithuania,50,1,Male,0 to 4
+2015,Lithuania,68,2,Female,5 to 11
+2015,Lithuania,50,2,Male,5 to 11
+2015,Lithuania,50,3,Female,12 to 17
+2015,Lithuania,104,3,Male,12 to 17
+2015,Lithuania,234,4,Female,18 to 59
+2015,Lithuania,344,4,Male,18 to 59
+2015,Lithuania,8,5,Female,Above 60
+2015,Lithuania,22,5,Male,Above 60
+2015,Lithuania,0,6,Female,Unknown
+2015,Lithuania,0,6,Male,Unknown
+2015,Luxembourg,0,1,Female,0 to 4
+2015,Luxembourg,0,1,Male,0 to 4
+2015,Luxembourg,0,2,Female,5 to 11
+2015,Luxembourg,0,2,Male,5 to 11
+2015,Luxembourg,0,3,Female,12 to 17
+2015,Luxembourg,0,3,Male,12 to 17
+2015,Luxembourg,0,4,Female,18 to 59
+2015,Luxembourg,0,4,Male,18 to 59
+2015,Luxembourg,0,5,Female,Above 60
+2015,Luxembourg,0,5,Male,Above 60
+2015,Luxembourg,0,6,Female,Unknown
+2015,Luxembourg,0,6,Male,Unknown
+2015,Malta,0,1,Female,0 to 4
+2015,Malta,0,1,Male,0 to 4
+2015,Malta,0,2,Female,5 to 11
+2015,Malta,0,2,Male,5 to 11
+2015,Malta,0,3,Female,12 to 17
+2015,Malta,0,3,Male,12 to 17
+2015,Malta,0,4,Female,18 to 59
+2015,Malta,0,4,Male,18 to 59
+2015,Malta,0,5,Female,Above 60
+2015,Malta,0,5,Male,Above 60
+2015,Malta,0,6,Female,Unknown
+2015,Malta,0,6,Male,Unknown
+2015,Netherlands,0,1,Female,0 to 4
+2015,Netherlands,0,1,Male,0 to 4
+2015,Netherlands,0,2,Female,5 to 11
+2015,Netherlands,0,2,Male,5 to 11
+2015,Netherlands,0,3,Female,12 to 17
+2015,Netherlands,0,3,Male,12 to 17
+2015,Netherlands,0,4,Female,18 to 59
+2015,Netherlands,0,4,Male,18 to 59
+2015,Netherlands,0,5,Female,Above 60
+2015,Netherlands,0,5,Male,Above 60
+2015,Netherlands,0,6,Female,Unknown
+2015,Netherlands,0,6,Male,Unknown
+2015,Norway,0,1,Female,0 to 4
+2015,Norway,0,1,Male,0 to 4
+2015,Norway,0,2,Female,5 to 11
+2015,Norway,0,2,Male,5 to 11
+2015,Norway,0,3,Female,12 to 17
+2015,Norway,0,3,Male,12 to 17
+2015,Norway,0,4,Female,18 to 59
+2015,Norway,0,4,Male,18 to 59
+2015,Norway,0,5,Female,Above 60
+2015,Norway,0,5,Male,Above 60
+2015,Norway,0,6,Female,Unknown
+2015,Norway,0,6,Male,Unknown
+2015,Poland,336,1,Female,0 to 4
+2015,Poland,340,1,Male,0 to 4
+2015,Poland,406,2,Female,5 to 11
+2015,Poland,510,2,Male,5 to 11
+2015,Poland,151,3,Female,12 to 17
+2015,Poland,178,3,Male,12 to 17
+2015,Poland,752,4,Female,18 to 59
+2015,Poland,816,4,Male,18 to 59
+2015,Poland,10,5,Female,Above 60
+2015,Poland,5,5,Male,Above 60
+2015,Poland,0,6,Female,Unknown
+2015,Poland,0,6,Male,Unknown
+2015,Portugal,0,1,Female,0 to 4
+2015,Portugal,0,1,Male,0 to 4
+2015,Portugal,0,2,Female,5 to 11
+2015,Portugal,0,2,Male,5 to 11
+2015,Portugal,0,3,Female,12 to 17
+2015,Portugal,0,3,Male,12 to 17
+2015,Portugal,0,4,Female,18 to 59
+2015,Portugal,0,4,Male,18 to 59
+2015,Portugal,0,5,Female,Above 60
+2015,Portugal,0,5,Male,Above 60
+2015,Portugal,0,6,Female,Unknown
+2015,Portugal,0,6,Male,Unknown
+2015,Romania,224,1,Female,0 to 4
+2015,Romania,296,1,Male,0 to 4
+2015,Romania,248,2,Female,5 to 11
+2015,Romania,252,2,Male,5 to 11
+2015,Romania,164,3,Female,12 to 17
+2015,Romania,240,3,Male,12 to 17
+2015,Romania,972,4,Female,18 to 59
+2015,Romania,2956,4,Male,18 to 59
+2015,Romania,76,5,Female,Above 60
+2015,Romania,248,5,Male,Above 60
+2015,Romania,0,6,Female,Unknown
+2015,Romania,0,6,Male,Unknown
+2015,Slovakia,0,1,Female,0 to 4
+2015,Slovakia,0,1,Male,0 to 4
+2015,Slovakia,50,2,Female,5 to 11
+2015,Slovakia,126,2,Male,5 to 11
+2015,Slovakia,70,3,Female,12 to 17
+2015,Slovakia,100,3,Male,12 to 17
+2015,Slovakia,1626,4,Female,18 to 59
+2015,Slovakia,3230,4,Male,18 to 59
+2015,Slovakia,0,5,Female,Above 60
+2015,Slovakia,0,5,Male,Above 60
+2015,Slovakia,0,6,Female,Unknown
+2015,Slovakia,0,6,Male,Unknown
+2015,Slovenia,0,1,Female,0 to 4
+2015,Slovenia,1,1,Male,0 to 4
+2015,Slovenia,18,2,Female,5 to 11
+2015,Slovenia,2,2,Male,5 to 11
+2015,Slovenia,26,3,Female,12 to 17
+2015,Slovenia,62,3,Male,12 to 17
+2015,Slovenia,156,4,Female,18 to 59
+2015,Slovenia,530,4,Male,18 to 59
+2015,Slovenia,0,5,Female,Above 60
+2015,Slovenia,0,5,Male,Above 60
+2015,Slovenia,0,6,Female,Unknown
+2015,Slovenia,0,6,Male,Unknown
+2015,Spain,0,1,Female,0 to 4
+2015,Spain,0,1,Male,0 to 4
+2015,Spain,0,2,Female,5 to 11
+2015,Spain,0,2,Male,5 to 11
+2015,Spain,0,3,Female,12 to 17
+2015,Spain,0,3,Male,12 to 17
+2015,Spain,0,4,Female,18 to 59
+2015,Spain,0,4,Male,18 to 59
+2015,Spain,0,5,Female,Above 60
+2015,Spain,0,5,Male,Above 60
+2015,Spain,0,6,Female,Unknown
+2015,Spain,0,6,Male,Unknown
+2015,Sweden,0,1,Female,0 to 4
+2015,Sweden,0,1,Male,0 to 4
+2015,Sweden,0,2,Female,5 to 11
+2015,Sweden,0,2,Male,5 to 11
+2015,Sweden,0,3,Female,12 to 17
+2015,Sweden,0,3,Male,12 to 17
+2015,Sweden,0,4,Female,18 to 59
+2015,Sweden,0,4,Male,18 to 59
+2015,Sweden,0,5,Female,Above 60
+2015,Sweden,0,5,Male,Above 60
+2015,Sweden,0,6,Female,Unknown
+2015,Sweden,0,6,Male,Unknown
+2015,Switzerland,3501,1,Female,0 to 4
+2015,Switzerland,3644,1,Male,0 to 4
+2015,Switzerland,4019,2,Female,5 to 11
+2015,Switzerland,4409,2,Male,5 to 11
+2015,Switzerland,2972,3,Female,12 to 17
+2015,Switzerland,7292,3,Male,12 to 17
+2015,Switzerland,19633,4,Female,18 to 59
+2015,Switzerland,44411,4,Male,18 to 59
+2015,Switzerland,1082,5,Female,Above 60
+2015,Switzerland,793,5,Male,Above 60
+2015,Switzerland,0,6,Female,Unknown
+2015,Switzerland,0,6,Male,Unknown
+2015,Macedonia,54,1,Female,0 to 4
+2015,Macedonia,112,1,Male,0 to 4
+2015,Macedonia,211,2,Female,5 to 11
+2015,Macedonia,216,2,Male,5 to 11
+2015,Macedonia,157,3,Female,12 to 17
+2015,Macedonia,225,3,Male,12 to 17
+2015,Macedonia,800,4,Female,18 to 59
+2015,Macedonia,718,4,Male,18 to 59
+2015,Macedonia,125,5,Female,Above 60
+2015,Macedonia,49,5,Male,Above 60
+2015,Macedonia,0,6,Female,Unknown
+2015,Macedonia,0,6,Male,Unknown
+2015,Turkey,22052,1,Female,0 to 4
+2015,Turkey,23513,1,Male,0 to 4
+2015,Turkey,33895,2,Female,5 to 11
+2015,Turkey,38671,2,Male,5 to 11
+2015,Turkey,22099,3,Female,12 to 17
+2015,Turkey,30528,3,Male,12 to 17
+2015,Turkey,110161,4,Female,18 to 59
+2015,Turkey,207663,4,Male,18 to 59
+2015,Turkey,5559,5,Female,Above 60
+2015,Turkey,5561,5,Male,Above 60
+2015,Turkey,0,6,Female,Unknown
+2015,Turkey,0,6,Male,Unknown
+2015,United Kingdom,0,1,Female,0 to 4
+2015,United Kingdom,0,1,Male,0 to 4
+2015,United Kingdom,0,2,Female,5 to 11
+2015,United Kingdom,0,2,Male,5 to 11
+2015,United Kingdom,0,3,Female,12 to 17
+2015,United Kingdom,0,3,Male,12 to 17
+2015,United Kingdom,0,4,Female,18 to 59
+2015,United Kingdom,0,4,Male,18 to 59
+2015,United Kingdom,0,5,Female,Above 60
+2015,United Kingdom,0,5,Male,Above 60
+2015,United Kingdom,0,6,Female,Unknown
+2015,United Kingdom,0,6,Male,Unknown
+2016,Croatia,29,1,Female,0 to 4
+2016,Croatia,26,1,Male,0 to 4
+2016,Croatia,33,2,Female,5 to 11
+2016,Croatia,38,2,Male,5 to 11
+2016,Croatia,14,3,Female,12 to 17
+2016,Croatia,37,3,Male,12 to 17
+2016,Croatia,109,4,Female,18 to 59
+2016,Croatia,523,4,Male,18 to 59
+2016,Croatia,0,5,Female,Above 60
+2016,Croatia,0,5,Male,Above 60
+2016,Croatia,0,6,Female,Unknown
+2016,Croatia,0,6,Male,Unknown
+2016,Germany,53847,1,Female,0 to 4
+2016,Germany,58292,1,Male,0 to 4
+2016,Germany,61034,2,Female,5 to 11
+2016,Germany,71268,2,Male,5 to 11
+2016,Germany,38211,3,Female,12 to 17
+2016,Germany,84639,3,Male,12 to 17
+2016,Germany,250067,4,Female,18 to 59
+2016,Germany,613177,4,Male,18 to 59
+2016,Germany,18815,5,Female,Above 60
+2016,Germany,19495,5,Male,Above 60
+2016,Germany,0,6,Female,Unknown
+2016,Germany,0,6,Male,Unknown
+2016,Ireland,196,1,Female,0 to 4
+2016,Ireland,209,1,Male,0 to 4
+2016,Ireland,275,2,Female,5 to 11
+2016,Ireland,282,2,Male,5 to 11
+2016,Ireland,229,3,Female,12 to 17
+2016,Ireland,247,3,Male,12 to 17
+2016,Ireland,2752,4,Female,18 to 59
+2016,Ireland,5281,4,Male,18 to 59
+2016,Ireland,124,5,Female,Above 60
+2016,Ireland,147,5,Male,Above 60
+2016,Ireland,0,6,Female,Unknown
+2016,Ireland,0,6,Male,Unknown
+2016,Poland,165,1,Female,0 to 4
+2016,Poland,202,1,Male,0 to 4
+2016,Poland,259,2,Female,5 to 11
+2016,Poland,264,2,Male,5 to 11
+2016,Poland,101,3,Female,12 to 17
+2016,Poland,133,3,Male,12 to 17
+2016,Poland,419,4,Female,18 to 59
+2016,Poland,383,4,Male,18 to 59
+2016,Poland,0,5,Female,Above 60
+2016,Poland,0,5,Male,Above 60
+2016,Poland,0,6,Female,Unknown
+2016,Poland,0,6,Male,Unknown
+2016,Romania,124,1,Female,0 to 4
+2016,Romania,151,1,Male,0 to 4
+2016,Romania,140,2,Female,5 to 11
+2016,Romania,157,2,Male,5 to 11
+2016,Romania,95,3,Female,12 to 17
+2016,Romania,111,3,Male,12 to 17
+2016,Romania,569,4,Female,18 to 59
+2016,Romania,1464,4,Male,18 to 59
+2016,Romania,40,5,Female,Above 60
+2016,Romania,54,5,Male,Above 60
+2016,Romania,0,6,Female,Unknown
+2016,Romania,0,6,Male,Unknown
+2016,Slovakia,0,1,Female,0 to 4
+2016,Slovakia,0,1,Male,0 to 4
+2016,Slovakia,35,2,Female,5 to 11
+2016,Slovakia,69,2,Male,5 to 11
+2016,Slovakia,39,3,Female,12 to 17
+2016,Slovakia,70,3,Male,12 to 17
+2016,Slovakia,792,4,Female,18 to 59
+2016,Slovakia,1585,4,Male,18 to 59
+2016,Slovakia,0,5,Female,Above 60
+2016,Slovakia,0,5,Male,Above 60
+2016,Slovakia,0,6,Female,Unknown
+2016,Slovakia,0,6,Male,Unknown
+2016,Slovenia,7,1,Female,0 to 4
+2016,Slovenia,0,1,Male,0 to 4
+2016,Slovenia,40,2,Female,5 to 11
+2016,Slovenia,42,2,Male,5 to 11
+2016,Slovenia,9,3,Female,12 to 17
+2016,Slovenia,70,3,Male,12 to 17
+2016,Slovenia,160,4,Female,18 to 59
+2016,Slovenia,443,4,Male,18 to 59
+2016,Slovenia,0,5,Female,Above 60
+2016,Slovenia,7,5,Male,Above 60
+2016,Slovenia,0,6,Female,Unknown
+2016,Slovenia,0,6,Male,Unknown
+2016,Switzerland,2949,1,Female,0 to 4
+2016,Switzerland,3099,1,Male,0 to 4
+2016,Switzerland,3323,2,Female,5 to 11
+2016,Switzerland,3514,2,Male,5 to 11
+2016,Switzerland,2388,3,Female,12 to 17
+2016,Switzerland,5004,3,Male,12 to 17
+2016,Switzerland,15772,4,Female,18 to 59
+2016,Switzerland,30099,4,Male,18 to 59
+2016,Switzerland,877,5,Female,Above 60
+2016,Switzerland,652,5,Male,Above 60
+2016,Switzerland,0,6,Female,Unknown
+2016,Switzerland,0,6,Male,Unknown
+2016,Macedonia,23,1,Female,0 to 4
+2016,Macedonia,47,1,Male,0 to 4
+2016,Macedonia,97,2,Female,5 to 11
+2016,Macedonia,87,2,Male,5 to 11
+2016,Macedonia,76,3,Female,12 to 17
+2016,Macedonia,133,3,Male,12 to 17
+2016,Macedonia,321,4,Female,18 to 59
+2016,Macedonia,312,4,Male,18 to 59
+2016,Macedonia,37,5,Female,Above 60
+2016,Macedonia,19,5,Male,Above 60
+2016,Macedonia,0,6,Female,Unknown
+2016,Macedonia,0,6,Male,Unknown
+2016,Turkey,11999,1,Female,0 to 4
+2016,Turkey,12847,1,Male,0 to 4
+2016,Turkey,20450,2,Female,5 to 11
+2016,Turkey,22911,2,Male,5 to 11
+2016,Turkey,12804,3,Female,12 to 17
+2016,Turkey,16892,3,Male,12 to 17
+2016,Turkey,65123,4,Female,18 to 59
+2016,Turkey,121605,4,Male,18 to 59
+2016,Turkey,3274,5,Female,Above 60
+2016,Turkey,3297,5,Male,Above 60
+2016,Turkey,0,6,Female,Unknown
+2016,Turkey,0,6,Male,Unknown
