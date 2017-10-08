@@ -1,0 +1,1 @@
+Displaying planetary data from [nasa.gov](http://nssdc.gsfc.nasa.gov/planetary/factsheet/) to test Parallel Coordinates in d3 with the awesome [parcoords library](http://syntagmatic.github.io/parallel-coordinates/)
